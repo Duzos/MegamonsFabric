@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:megagengar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megagengar",
+      "model": "cobblemon:megagengar.geo",
+      "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_megagengar/megagengar_shiny.png"
+    }
+  ]
+}

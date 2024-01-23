@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:megarayquaza",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megarayquaza",
+      "model": "cobblemon:megarayquaza.geo",
+      "texture": "cobblemon:textures/pokemon/m_rayquaza/megarayquaza.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_rayquaza/megarayquaza_shiny.png"
+    }
+  ]
+}

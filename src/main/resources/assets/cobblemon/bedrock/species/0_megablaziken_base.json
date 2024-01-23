@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:megablaziken",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megablaziken",
+      "model": "cobblemon:megablaziken.geo",
+      "texture": "cobblemon:textures/pokemon/m_blaziken/megablaziken.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/m_blaziken/megablaziken_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_blaziken/megablaziken_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/m_blaziken/megablaziken_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

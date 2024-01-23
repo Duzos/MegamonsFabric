@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:megamewtwoy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megamewtwoy",
+      "model": "cobblemon:megamewtwoy.geo",
+      "texture": "cobblemon:textures/pokemon/m_mewtwo/megamewtwoy.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "portraitScale": 0.7,
+  "portraitTranslation": [-0.7, 1.8, 0.0],
+  "profileScale": 0.4,
+  "profileTranslation": [-0.1, 1.1, 0.0],
+  "cry": "bedrock(megasteelix, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(megasteelix, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(megasteelix, blink)"]
+        },
+        {
+          "name": "blink",
+          "animations": ["bedrock(megasteelix, quirk_jawjitter)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "bedrock(megasteelix, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(megasteelix, blink)"
+          ]
+        },
+        {
+          "name": "blink",
+          "animations": ["bedrock(megasteelix, quirk_jawjitter)"]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "bedrock(megasteelix, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(megasteelix, blink)"
+          ]
+        },
+        {
+          "name": "blink",
+          "animations": ["bedrock(megasteelix, quirk_jawjitter)"]
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "bedrock(megasteelix, sleep)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(megasteelix, quirk_jawjitter)"]
+        }
+      ]
+    } 
+  }
+  }

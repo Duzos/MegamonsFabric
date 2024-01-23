@@ -1,0 +1,88 @@
+{
+  "item.megastones.raw_aerodactylite": "Raw Aerodactylite",
+  "item.megastones.raw_alakazite": "Raw Alakazite",
+  "item.megastones.raw_beedrillite": "Raw Beedrillite",
+  "item.megastones.raw_blastoisinite": "Raw Blastoisinite",
+  "item.megastones.raw_charizarditex": "Raw Charizardite X",
+  "item.megastones.raw_charizarditey": "Raw Charizardite Y",
+  "item.megastones.raw_gengarite": "Raw Gengarite",
+  "item.megastones.raw_gyaradosite": "Raw Gyaradosite",
+  "item.megastones.raw_kangaskhanite": "Raw Kangaskhanite",
+  "item.megastones.raw_mewtwonitex": "Raw Mewtwonite X",
+  "item.megastones.raw_mewtwonitey": "Raw Mewtwonite Y",
+  "item.megastones.raw_pidgeotite": "Raw Pidgeotite",
+  "item.megastones.raw_pinsirite": "Raw Pinsirite",
+  "item.megastones.raw_slowbronite": "Raw Slowbronite",
+  "item.megastones.raw_venusaurite": "Raw Venusaurite",
+
+  "item.megastones.cut_aerodactylite": "Aerodactylite",
+  "item.megastones.cut_alakazite": "Alakazite",
+  "item.megastones.cut_beedrillite": "Beedrillite",
+  "item.megastones.cut_blastoisinite": "Blastoisinite",
+  "item.megastones.cut_charizarditex": "Charizardite X",
+  "item.megastones.cut_charizarditey": "Charizardite Y",
+  "item.megastones.cut_gengarite": "Gengarite",
+  "item.megastones.cut_gyaradosite": "Gyaradosite",
+  "item.megastones.cut_kangaskhanite": "Kangaskhanite",
+  "item.megastones.cut_mewtwonitex": "Mewtwonite X",
+  "item.megastones.cut_mewtwonitey": "Mewtwonite Y",
+  "item.megastones.cut_pidgeotite": "Pidgeotite",
+  "item.megastones.cut_pinsirite": "Pinsirite",
+  "item.megastones.cut_slowbronite": "Slowbronite",
+  "item.megastones.cut_venusaurite": "Venusaurite",
+
+  "item.megastones.key_stone": "Key Stone",
+  "item.megastones.mega_cuff": "Mega Cuff",
+
+
+  "block.megastones.ore_aerodactylite": "Aerodactylite ore",
+  "block.megastones.ore_alakazite": "Alakazite ore",
+  "block.megastones.ore_beedrillite": "Beedrillite ore",
+  "block.megastones.ore_blastoisinite": "Blastoisinite ore",
+  "block.megastones.ore_charizarditex": "Charizardite X ore",
+  "block.megastones.ore_charizarditey": "Charizardite Y ore",
+  "block.megastones.ore_gengarite": "Gengarite ore",
+  "block.megastones.ore_gyaradosite": "Gyaradosite ore",
+  "block.megastones.ore_kangaskhanite": "Kangaskhanite ore",
+  "block.megastones.ore_mewtwonitex": "Mewtwonite X ore",
+  "block.megastones.ore_mewtwonitey": "Mewtwonite Y ore",
+  "block.megastones.ore_pidgeotite": "Pidgeotite ore",
+  "block.megastones.ore_pinsirite": "Pinsirite ore",
+  "block.megastones.ore_slowbronite": "Slowbronite ore",
+  "block.megastones.ore_venusaurite": "Venusaurite ore",
+
+  "block.megastones.ore_deepslate_aerodactylite": "Aerodactylite Ore",
+  "block.megastones.ore_deepslate_alakazite": "Alakazite Ore",
+  "block.megastones.ore_deepslate_beedrillite": "Beedrillite Ore",
+  "block.megastones.ore_deepslate_blastoisinite": "Blastoisinite Ore",
+  "block.megastones.ore_deepslate_charizarditex": "Charizardite X Ore",
+  "block.megastones.ore_deepslate_charizarditey": "Charizardite Y Ore",
+  "block.megastones.ore_deepslate_gengarite": "Gengarite Ore",
+  "block.megastones.ore_deepslate_gyaradosite": "Gyaradosite Ore",
+  "block.megastones.ore_deepslate_kangaskhanite": "Kangaskhanite Ore",
+  "block.megastones.ore_deepslate_mewtwonitex": "Mewtwonite X Ore",
+  "block.megastones.ore_deepslate_mewtwonitey": "Mewtwonite Y Ore",
+  "block.megastones.ore_deepslate_pidgeotite": "Pidgeotite Ore",
+  "block.megastones.ore_deepslate_pinsirite": "Pinsirite Ore",
+  "block.megastones.ore_deepslate_slowbronite": "Slowbronite Ore",
+  "block.megastones.ore_deepslate_venusaurite": "Venusaurite Ore",
+
+
+
+
+  "block.megastones.ore_forest_shard": "Forest Shard Ore",
+  "block.megastones.ore_deepslate_forest_shard": "Forest Shard Ore",
+
+
+  "item.megastones.forest_shard": "Forest Shard",
+  "item.megastones.forest_raw_megastone": "Forest Raw Megastone",
+
+
+  "block.megastones.geode_megastone_block": "Megastone Geode Block",
+  "item.megastones.metal_detector": "Metal Detector",
+
+
+
+  "itemgroup.megastones": "Mega Stones"
+
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_aerodactylite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megastones:raw_aerodactylite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_aerodactylite_from_raw_aerodactylite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_aerodactylite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_aerodactylite_from_raw_aerodactylite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

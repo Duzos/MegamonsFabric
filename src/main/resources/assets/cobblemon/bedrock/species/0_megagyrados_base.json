@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:megagyrados",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megagyrados",
+      "model": "cobblemon:megagyrados.geo",
+      "texture": "cobblemon:textures/pokemon/m_gyrados/megagyrados.png",
+      "layers": []
+    }
+  ]
+}

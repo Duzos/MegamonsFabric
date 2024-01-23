@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "megastones:raw_mewtwonitex"
+  },
+  "result": "megastones:cut_mewtwonitex"
+}

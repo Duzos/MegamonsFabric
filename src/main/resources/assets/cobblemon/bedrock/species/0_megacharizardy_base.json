@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:megacharizardy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megacharizardy",
+      "model": "cobblemon:megacharizardy.geo",
+      "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardy.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardy_shiny.png",
+      "layers": []
+    }
+  ]
+}

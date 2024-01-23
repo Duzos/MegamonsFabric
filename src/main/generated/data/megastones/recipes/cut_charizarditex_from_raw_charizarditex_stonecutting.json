@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "megastones:raw_charizarditex"
+  },
+  "result": "megastones:cut_charizarditex"
+}

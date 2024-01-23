@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "megastones:raw_pidgeotite"
+  },
+  "result": "megastones:cut_pidgeotite"
+}

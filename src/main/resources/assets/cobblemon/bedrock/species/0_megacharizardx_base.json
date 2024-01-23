@@ -1,0 +1,60 @@
+{
+  "species": "cobblemon:megacharizardx",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megacharizardx",
+      "model": "cobblemon:megacharizardx2.geo",
+      "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardx.png",
+      "layers": [
+	  {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/m1_megacharizard/flame/tail1.png",
+              "cobblemon:textures/pokemon/m1_megacharizard/flame/tail2.png",
+              "cobblemon:textures/pokemon/m1_megacharizard/flame/tail3.png",
+              "cobblemon:textures/pokemon/m1_megacharizard/flame/tail4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+	  },
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardx_e.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardx_shiny.png",
+      "layers": [
+        {
+              "name": "flame",
+              "texture": {
+                "frames": [
+                  "cobblemon:textures/pokemon/m1_megacharizard/flame/tail1.png",
+                  "cobblemon:textures/pokemon/m1_megacharizard/flame/tail2.png",
+                  "cobblemon:textures/pokemon/m1_megacharizard/flame/tail3.png",
+                  "cobblemon:textures/pokemon/m1_megacharizard/flame/tail4.png"
+                ],
+                "fps": 10,
+                "loop": true
+              },
+              "emissive": true
+        },
+            {
+              "name": "glow",
+              "texture": "cobblemon:textures/pokemon/m1_megacharizard/megacharizardx_e.png",
+              "emissive": true,
+              "translucent": true
+            }
+          ]
+    }
+  ]
+}

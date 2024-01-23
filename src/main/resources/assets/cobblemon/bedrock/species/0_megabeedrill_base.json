@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:megabeedrill",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megabeedrill",
+      "model": "cobblemon:megabeedrill.geo",
+      "texture": "cobblemon:textures/pokemon/m4_megabeedrill/megabeedrill.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/m4_megabeedrill/megabeedrill_e.png",
+              "translucent": true
+        }
+        ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m4_megabeedrill/megabeedrill_shiny.png"
+    }
+  ]
+}

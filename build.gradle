@@ -1,0 +1,48 @@
+plugins {
+	id("java")
+	id("org.jetbrains.kotlin.jvm") version("1.9.22")
+	id("fabric-loom") version("1.5-SNAPSHOT")
+}
+
+version = "1.0.0"
+group = "git.dragomordor.megastones"
+
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+	maven { url = 'https://maven.impactdev.net/repository/development/' }
+	maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+
+
+fabricApi {
+	configureDataGeneration()
+}
+
+dependencies {
+	minecraft("net.minecraft:minecraft:1.20.1")
+	mappings("net.fabricmc:yarn:1.20.1+build.10:v2")
+	//modImplementation("net.fabricmc:fabric-loader:0.14.21")
+	modImplementation("net.fabricmc:fabric-loader:0.15.3")
+
+	modImplementation("net.fabricmc.fabric-api:fabric-api:0.89.3+1.20.1")
+	modImplementation("net.fabricmc:fabric-language-kotlin:1.10.17+kotlin.1.9.22")
+	modImplementation("com.cobblemon:fabric:1.4.0+")
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks {
+	compileKotlin {
+		kotlinOptions.jvmTarget = "17"
+	}
+}

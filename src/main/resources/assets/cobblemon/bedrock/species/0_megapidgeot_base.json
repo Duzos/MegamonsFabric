@@ -1,0 +1,13 @@
+{
+  "species": "cobblemon:megapidgeot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megapidgeot",
+      "model": "cobblemon:megapidgeot.geo",
+      "texture": "cobblemon:textures/pokemon/m6_pidgeot/megapidgeot.png",
+      "layers": []
+    }
+  ]
+}

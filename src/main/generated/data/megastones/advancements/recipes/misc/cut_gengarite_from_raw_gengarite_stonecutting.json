@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_gengarite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megastones:raw_gengarite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cut_gengarite_from_raw_gengarite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_gengarite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cut_gengarite_from_raw_gengarite_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

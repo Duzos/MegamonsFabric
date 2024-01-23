@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "megastones",
+	"version": "1.0.0",
+	"name": "Cobblemon Megastones",
+	"description": "A mod that adds Megastones and mega ores",
+	"authors": [
+		"Dragomordor"
+	],
+	"license": "MIT",
+	"icon": "assets/megastones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"git.dragomordor.megastones.MegastonesMod"
+		],
+		"fabric-datagen": [
+			{
+				"value": "git.dragomordor.megastones.MegaStonesDataGenerator"
+			}
+		]
+	},
+	"depends": {
+		"java": ">=17",
+		"minecraft": ">=1.20.1",
+		"fabricloader": ">=0.14.21",
+		"fabric-api": "*",
+		"cobblemon": ">=1.4"
+	}
+}

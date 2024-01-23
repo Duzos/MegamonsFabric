@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:megavenusaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megavenusaur",
+      "model": "cobblemon:megavenusaur.geo",
+      "texture": "cobblemon:textures/pokemon/m3_megavenusaur/megavenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m3_megavenusaur/megavenusaur_shiny.png"
+    }
+  ]
+}

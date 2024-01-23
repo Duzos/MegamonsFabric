@@ -1,0 +1,79 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [-0.5, 1.5, 0],
+    "profileScale": 0.55,
+    "profileTranslation": [0.05, 0.95, 0],
+    "faint": "bedrock(megacharizardx, faint, true)",
+    "cry":  "bedrock(charizard, cry)",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE" ],
+        "animations": [
+          "look",
+          "bedrock(megacharizardx, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(megacharizardx, blink)"]
+          }
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "poseTypes": ["WALK"],
+        "animations": [
+          "look",
+          "bedrock(megacharizardx, ground_walk)",
+          "bedrock(megacharizardx, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(megacharizardx, blink)"]
+          }
+        ]
+      },
+      "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [
+          "SLEEP"
+        ],
+        "animations": [
+          "bedrock(megacharizardx, sleep)"
+        ]
+      },
+      "hovering": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": ["HOVER"],
+        "animations": [
+          "bedrock(megacharizardx, air_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(megacharizardx, blink)"]
+          }
+        ]
+      },
+      "flying": {
+        "poseName": "flying",
+        "transformTicks": 10,
+        "poseTypes": ["FLY"],
+        "animations": [
+          "bedrock(megacharizardx, air_fly)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(megacharizardx, blink)"]
+          }
+        ]
+      }
+    }
+  }

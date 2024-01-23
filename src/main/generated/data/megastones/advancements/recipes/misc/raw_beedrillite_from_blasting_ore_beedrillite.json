@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ore_beedrillite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megastones:ore_beedrillite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_beedrillite_from_blasting_ore_beedrillite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ore_beedrillite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_beedrillite_from_blasting_ore_beedrillite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

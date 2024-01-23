@@ -1,0 +1,83 @@
+  {
+    "head": "head",
+    "portraitScale": 2.4,
+    "portraitTranslation": [-1.1, 1.9, 0.0],
+    "profileScale": 0.55,
+    "profileTranslation": [0.0, 0.9, 0.0],
+    "cry": "bedrock(garchomp, cry)",
+    "poses": {
+      "battle-idle": {
+        "poseName": "battle-idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "look",
+          "bedrock(megagarchomp, battle_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(megagarchomp, blink)"]
+          }
+        ]
+      },
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+        ],
+        "isBattle": false,
+        "animations": [
+        "look",
+          "bedrock(megagarchomp, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": [
+              "bedrock(megagarchomp, blink)"
+            ]
+          }
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [
+          "WALK"
+        ],
+        "animations": [
+          "look",
+          "bedrock(megagarchomp, ground_run)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": [
+              "bedrock(megagarchomp, blink)"
+            ]
+          }
+        ]
+      }
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "bedrock(megagarchomp, air_idle)"
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": ["FLY"],
+      "animations": [
+        "bedrock(megagarchomp, air_idle)"
+      ]
+    }
+  }

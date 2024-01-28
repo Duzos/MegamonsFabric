@@ -100,7 +100,6 @@ public class MegaCuffItem extends PokemonUseItem{
                 PlayerPartyStore pokemonInParty =  Cobblemon.INSTANCE.getStorage().getParty(player.getUuid());
                 PCStore pokemonInPc = Cobblemon.INSTANCE.getStorage().getPC(player.getUuid());
                 for (int partySlot = 0; partySlot <= 5; partySlot++) {
-                    System.out.println("Inspecing partyslot "+partySlot);
                     PartyPosition partyPosition = new PartyPosition(partySlot);
                     Pokemon pokemonInSlot = pokemonInParty.get(partyPosition);
                     if (pokemonInSlot==null) {

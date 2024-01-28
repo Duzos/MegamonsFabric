@@ -1,5 +1,10 @@
 package git.dragomordor.megastones.util;
 
+import git.dragomordor.megastones.MegastonesMod;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MegastoneMegaSpecies {
 
     // Alakazite
@@ -61,5 +66,82 @@ public class MegastoneMegaSpecies {
     // Venusaurite
     public static String VenusauritePreEvolution = "venusaur";
     public static String VenusauritePostEvolution = "megavenusaur";
+
+    // Mega Species List
+    private static final List<String> MEGA_SPECIES = new ArrayList<>();
+    static {
+        MEGA_SPECIES.add(AlakazitePostEvolution);
+        MEGA_SPECIES.add(AerodactylitePostEvolution);
+        MEGA_SPECIES.add(BeedrillitePostEvolution);
+        MEGA_SPECIES.add(BlastoisinitePostEvolution);
+        MEGA_SPECIES.add(CharizarditeXPostEvolution);
+        MEGA_SPECIES.add(CharizarditeYPostEvolution);
+        MEGA_SPECIES.add(GengaritePostEvolution);
+        MEGA_SPECIES.add(GyaradositePostEvolution);
+        MEGA_SPECIES.add(KangaskhanitePostEvolution);
+        MEGA_SPECIES.add(MewtwoniteXPostEvolution);
+        MEGA_SPECIES.add(MewtwoniteYPostEvolution);
+        MEGA_SPECIES.add(PidgeotitePostEvolution);
+        MEGA_SPECIES.add(PinsiritePostEvolution);
+        MEGA_SPECIES.add(SlowbronitePostEvolution);
+        MEGA_SPECIES.add(VenusauritePostEvolution);
+    }
+    public static void registerMegaList() {
+        MegastonesMod.LOGGER.info("Register Mega Species list for " + MegastonesMod.MODID) ;
+    }
+    public static List<String> getMegaSpecies() {
+        return MEGA_SPECIES;
+    }
+
+
+    public static String getPreSpeciesFromPostSpecies(String pokemonPostSpecies) {
+        String pokemonPreSpecies = "weedle";
+        if (pokemonPostSpecies.equals(AlakazitePostEvolution)) {
+           pokemonPreSpecies = AlakazitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(AerodactylitePostEvolution)) {
+           pokemonPreSpecies = AerodactylitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(BeedrillitePostEvolution)) {
+           pokemonPreSpecies = BeedrillitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(BlastoisinitePostEvolution)) {
+           pokemonPreSpecies = BlastoisinitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(CharizarditeXPostEvolution)) {
+           pokemonPreSpecies = CharizarditeXPreEvolution;
+        }
+        if (pokemonPostSpecies.equals(CharizarditeYPostEvolution)) {
+           pokemonPreSpecies = CharizarditeYPreEvolution;
+        }
+        if (pokemonPostSpecies.equals(GengaritePostEvolution)) {
+           pokemonPreSpecies = GengaritePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(GyaradositePostEvolution)) {
+           pokemonPreSpecies = GyaradositePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(KangaskhanitePostEvolution)) {
+           pokemonPreSpecies = KangaskhanitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(MewtwoniteXPostEvolution)) {
+           pokemonPreSpecies = MewtwoniteXPreEvolution;
+        }
+        if (pokemonPostSpecies.equals(MewtwoniteYPostEvolution)) {
+           pokemonPreSpecies = MewtwoniteYPreEvolution;
+        }
+        if (pokemonPostSpecies.equals(PidgeotitePostEvolution)) {
+           pokemonPreSpecies = PidgeotitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(PinsiritePostEvolution)) {
+           pokemonPreSpecies = PinsiritePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(SlowbronitePostEvolution)) {
+           pokemonPreSpecies = SlowbronitePreEvolution;
+        }
+        if (pokemonPostSpecies.equals(VenusauritePostEvolution)) {
+           pokemonPreSpecies = VenusauritePreEvolution;
+        }
+        return pokemonPreSpecies;
+    }
 
 }

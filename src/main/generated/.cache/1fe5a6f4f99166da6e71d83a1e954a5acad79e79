@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-28T13:22:41.1401475	Cobblemon Megastones/Model Definitions
+// 1.20.1	2024-01-28T23:24:15.8553142	Cobblemon Megastones/Model Definitions
 34ab72f23ec7c4af19fc01f2ba774d5d72522b7c assets\megastones\models\block\ore_deepslate_kangaskhanite.json
 cfc6cf84cb89328c6b5d7a50d626d8baaa052011 assets\megastones\models\item\cut_blastoisinite.json
 b54e0cb4d95c7f374865d46d097d5d9b5e1380ed assets\megastones\models\item\ore_alakazite.json
@@ -58,8 +58,8 @@ f937e9fe9cf0766fcc8df19154dac77f3ee3f54e assets\megastones\models\item\ore_deeps
 f082f6bb39ef06d9cd39204a7042ba8ec0cb4dd2 assets\megastones\models\item\ore_mewtwonitey.json
 21dc0dd8600d42d9ed429c37df9e7e87fbd0f908 assets\megastones\models\block\ore_venusaurite.json
 17ef67497f6b16d6b4bf5606194109072a7ca79a assets\megastones\models\block\ore_mewtwonitey.json
-e6ad7b4fd6a147be53568328cc553d624ea6d59f assets\megastones\blockstates\ore_aerodactylite.json
 3f34c1a523e173d660b550052d62893fd3d8b6cb assets\megastones\models\item\cut_beedrillite.json
+e6ad7b4fd6a147be53568328cc553d624ea6d59f assets\megastones\blockstates\ore_aerodactylite.json
 404686cbe45435c2cdd5f039729251f18d12c0c3 assets\megastones\blockstates\ore_deepslate_alakazite.json
 4c75ef8f42b85c8e579c215e187925c8cf55bdd7 assets\megastones\models\item\raw_mewtwonitex.json
 71237f3df54b7e0b0bf170a31ed620645afc8395 assets\megastones\models\item\ore_deepslate_gengarite.json

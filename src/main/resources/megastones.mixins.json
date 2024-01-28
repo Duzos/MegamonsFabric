@@ -3,6 +3,7 @@
   "package": "git.dragomordor.megastones.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PokemonMixin",
     "ExampleMixin"
   ],
   "client": [

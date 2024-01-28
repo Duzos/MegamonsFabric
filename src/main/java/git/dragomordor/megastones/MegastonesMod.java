@@ -2,7 +2,9 @@ package git.dragomordor.megastones;
 
 import git.dragomordor.megastones.block.MegastonesBlocks;
 import git.dragomordor.megastones.config.ModConfig;
+import git.dragomordor.megastones.event.ModEvents;
 import git.dragomordor.megastones.item.MegastonesItems;
+import git.dragomordor.megastones.util.MegastoneMegaSpecies;
 import git.dragomordor.megastones.util.RarityMaps;
 import git.dragomordor.megastones.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
@@ -24,6 +26,11 @@ public class MegastonesMod implements ModInitializer {
 
         // Register creative tabs
         MegaStonesItemGroups.registerItemGroups();
+
+        // Register lists
+        MegastoneMegaSpecies.registerMegaList();
+        // Register events
+        ModEvents.registerEvents();
 
         // Register BiomeRarityCutMegastones
         RarityMaps.initializeBiomeRarityCutMegastones();

@@ -6,8 +6,12 @@
       "aspects": [],
       "poser": "cobblemon:megagyrados",
       "model": "cobblemon:megagyrados.geo",
-      "texture": "cobblemon:textures/pokemon/m_gyrados/megagyrados.png",
+      "texture": "cobblemon:textures/pokemon/m_gyrados/megagyarados.png",
       "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_gyrados/megagyarados_shiny.png"
     }
   ]
 }

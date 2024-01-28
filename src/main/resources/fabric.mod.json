@@ -3,7 +3,7 @@
 	"id": "megastones",
 	"version": "1.0.0",
 	"name": "Cobblemon Megastones",
-	"description": "A mod that adds Megastones and mega ores",
+	"description": "A mod that adds Mega Stones and Mega ores",
 	"authors": [
 		"Dragomordor"
 	],
@@ -20,6 +20,9 @@
 			}
 		]
 	},
+	"mixins": [
+		"megastones.mixins.json"
+	],
 	"depends": {
 		"java": ">=17",
 		"minecraft": ">=1.20.1",

@@ -106,7 +106,8 @@ public class MegaStonesItemGroups {
                         entries.add(MegastonesItems.FOREST_RAW_MEGASTONE);
 
                     // megastone Geode wall
-                        entries.add(MegastonesBlocks.GEODE_MEGASTONE_WALL);
+                        entries.add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);
+                        entries.add(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL);
 
                         // metal detector
                         entries.add(MegastonesItems.METAL_DETECTOR);

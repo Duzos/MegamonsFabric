@@ -1,10 +1,9 @@
 {
   "head": "head",
-  "portraitScale": 2,
-  "portraitTranslation": [-0.5, 1.5, 0],
-  "profileScale": 0.55,
-  "profileTranslation": [0.05, 0.95, 0],
-  "faint": "bedrock(megablastoise, faint, true)",
+  "portraitScale": 1.7,
+  "portraitTranslation": [-1.25, 2.2, 0.0],
+  "profileScale": 0.45,
+  "profileTranslation": [0.0, 1, 0.0],
   "cry":  "bedrock(blastoise, cry)",
   "poses": {
     "standing": {
@@ -27,8 +26,7 @@
       "poseTypes": ["WALK"],
       "animations": [
         "look",
-        "bedrock(megablastoise, ground_walk)",
-        "bedrock(megablastoise, ground_idle)"
+        "bedrock(megablastoise, ground_walk)"
       ],
       "quirks": [
         {

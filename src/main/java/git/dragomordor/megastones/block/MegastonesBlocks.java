@@ -81,8 +81,13 @@ public class MegastonesBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(5.5F,3.5F), UniformIntProvider.create(5,9)));
 
     // Megastone Geode Block
-    public static final Block GEODE_MEGASTONE_WALL = registerBlock("geode_megastone_block",
+        // inner crystal block
+    public static final Block GEODE_MEGASTONE_CRYSTAL_WALL = registerBlock("geode_megastone_crystal_block",
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK).strength(5.5F,3.5F)));
+        // outer shell block
+        public static final Block GEODE_MEGASTONE_SHELL_WALL = registerBlock("geode_megastone_shell_block",
+                new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(6.0F,4.0F)));
+
 
 
     // Megastone Shard Ore / biome Ore

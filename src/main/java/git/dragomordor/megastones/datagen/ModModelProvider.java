@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.minecraft.item.Item;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -56,7 +55,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD);
 
         // Megastone Geode Block
-        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.GEODE_MEGASTONE_WALL);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL);
 
 
     }

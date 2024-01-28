@@ -2,6 +2,7 @@ package git.dragomordor.megastones.item;
 
 import git.dragomordor.megastones.MegastonesMod;
 import git.dragomordor.megastones.item.custom.*;
+import git.dragomordor.megastones.item.custom.metaldetector.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;

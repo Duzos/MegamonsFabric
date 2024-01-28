@@ -33,6 +33,7 @@
     "megastones:ore_deepslate_venusaurite",
     "megastones:ore_forest_shard",
     "megastones:ore_deepslate_forest_shard",
-    "megastones:geode_megastone_block"
+    "megastones:geode_megastone_crystal_block",
+    "megastones:geode_megastone_shell_block"
   ]
 }

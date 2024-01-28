@@ -78,7 +78,9 @@
   "item.megastones.forest_raw_megastone": "Forest Raw Megastone",
 
 
-  "block.megastones.geode_megastone_block": "Megastone Geode Block",
+  "block.megastones.geode_megastone_crystal_block": "Megastone Geode Crystal Block",
+  "block.megastones.geode_megastone_shell_block": "Megastone Geode Shell Block",
+
   "item.megastones.metal_detector": "Metal Detector",
 
 

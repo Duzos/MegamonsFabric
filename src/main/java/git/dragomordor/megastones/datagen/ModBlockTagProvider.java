@@ -65,7 +65,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ;
 
         getOrCreateTagBuilder(ModTags.Blocks.GEODE_WALLS)
-                .add(MegastonesBlocks.GEODE_MEGASTONE_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL)
                 ;
 
 
@@ -108,7 +109,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                .add(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD)
 
                 // Megastone Geode Block
-               .add(MegastonesBlocks.GEODE_MEGASTONE_WALL)
+               .add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
+               .add(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL)
 
             ;
 
@@ -120,7 +122,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 // Megastone Geode Block
-                .add(MegastonesBlocks.GEODE_MEGASTONE_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL)
             ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -166,15 +169,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DESTROYABLE_BLOCKS)
                 // Megastone Geode Block
-                .add(MegastonesBlocks.GEODE_MEGASTONE_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
+                .add(MegastonesBlocks.GEODE_MEGASTONE_SHELL_WALL)
                 ;
 
          getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
                 // Megastone Geode Block
-                .add(MegastonesBlocks.ORE_ALAKAZITE)
-                .add(CobblemonBlocks.FIRE_STONE_ORE)
+                 .add(MegastonesBlocks.ORE_AERODACTYLITE)
+                 .add(MegastonesBlocks.ORE_ALAKAZITE)
+                 .add(MegastonesBlocks.ORE_BEEDRILLITE)
+                 .add(MegastonesBlocks.ORE_BLASTOISINITE)
+                 .add(MegastonesBlocks.ORE_CHARIZARDITEX)
+                 .add(MegastonesBlocks.ORE_CHARIZARDITEY)
+                 .add(MegastonesBlocks.ORE_GENGARITE)
+                 .add(MegastonesBlocks.ORE_GYARADOSITE)
+                 .add(MegastonesBlocks.ORE_KANGASKHANITE)
+                 .add(MegastonesBlocks.ORE_MEWTWONITEX)
+                 .add(MegastonesBlocks.ORE_MEWTWONITEY)
+                 .add(MegastonesBlocks.ORE_PIDGEOTITE)
+                 .add(MegastonesBlocks.ORE_PINSIRITE)
+                 .add(MegastonesBlocks.ORE_SLOWBRONITE)
+                 .add(MegastonesBlocks.ORE_VENUSAURITE)
+
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_AERODACTYLITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_ALAKAZITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_BEEDRILLITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_BLASTOISINITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEX)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEY)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_GENGARITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_GYARADOSITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_KANGASKHANITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEX)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEY)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_PIDGEOTITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE)
+                 .add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE)
+
                 .add(CobblemonBlocks.DAWN_STONE_ORE)
                 .add(CobblemonBlocks.DUSK_STONE_ORE)
+                 .add(CobblemonBlocks.FIRE_STONE_ORE)
                 .add(CobblemonBlocks.ICE_STONE_ORE)
                 .add(CobblemonBlocks.LEAF_STONE_ORE)
                 .add(CobblemonBlocks.MOON_STONE_ORE)

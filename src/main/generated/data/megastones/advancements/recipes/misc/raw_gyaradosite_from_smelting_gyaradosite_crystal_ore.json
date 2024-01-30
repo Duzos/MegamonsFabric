@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gyaradosite_crystal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megastones:gyaradosite_crystal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_gyaradosite_from_smelting_gyaradosite_crystal_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_gyaradosite_crystal_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_gyaradosite_from_smelting_gyaradosite_crystal_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

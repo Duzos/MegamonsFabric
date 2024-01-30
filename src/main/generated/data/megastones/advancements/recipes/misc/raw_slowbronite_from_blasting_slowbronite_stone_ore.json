@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slowbronite_stone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megastones:slowbronite_stone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_slowbronite_from_blasting_slowbronite_stone_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_slowbronite_stone_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_slowbronite_from_blasting_slowbronite_stone_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,10 +1,9 @@
-// 1.20.1	2024-01-28T23:24:15.8595492	Cobblemon Megastones/Tags for minecraft:block
-28b2e615e1b6296e58e3edef25b8553d0b4c03fe data\megastones\tags\blocks\ore_biomeshards.json
-a70ea51fcc56df4fbfcfadcaa06219b2978d873d data\minecraft\tags\blocks\mineable\pickaxe.json
-03bf4f7e543bf23072c413d60754fd36a6a28d1d data\megastones\tags\blocks\metal_detector_detectable_blocks.json
-b8457f90a15110c268430b6393188dfa4ff14841 data\minecraft\tags\blocks\needs_diamond_tool.json
+// 1.20.1	2024-01-31T00:19:07.2249888	Cobblemon Megastones/Tags for minecraft:block
+36811b6290c4f69fef761f6c8d90967638078565 data\minecraft\tags\blocks\mineable\pickaxe.json
+80adf1e9c253e5f709c176f07239b698662692d1 data\minecraft\tags\blocks\needs_diamond_tool.json
+9062dabdf2dae82347aa88afd8363c21c2379826 data\megastones\tags\blocks\metal_detector_detectable_blocks.json
 dd27a04b3191df10e16e2290f3484f0cc4c2378e data\minecraft\tags\blocks\needs_iron_tool.json
-efdcde8a90760278dd208730301efec7a6d4ab8c data\megastones\tags\blocks\ore_megastones.json
+80adf1e9c253e5f709c176f07239b698662692d1 data\megastones\tags\blocks\ore_megastones.json
 dd27a04b3191df10e16e2290f3484f0cc4c2378e data\megastones\tags\blocks\geode_walls.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 dd27a04b3191df10e16e2290f3484f0cc4c2378e data\megastones\tags\blocks\metal_detector_destroyable_blocks.json

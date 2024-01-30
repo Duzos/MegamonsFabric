@@ -24,64 +24,78 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     // Megastone smelt tables
     private static final List<ItemConvertible> ORE_SMELT_AERODACTYLITE = List.of(
             MegastonesBlocks.ORE_AERODACTYLITE,
-            MegastonesBlocks.ORE_DEEPSLATE_AERODACTYLITE);
+            MegastonesBlocks.ORE_DEEPSLATE_AERODACTYLITE,
+            MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE);
 
     private static final List<ItemConvertible> ORE_SMELT_ALAKAZITE = List.of(
             MegastonesBlocks.ORE_ALAKAZITE,
-            MegastonesBlocks.ORE_DEEPSLATE_ALAKAZITE);
+            MegastonesBlocks.ORE_DEEPSLATE_ALAKAZITE,
+            MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE);
 
     private static final List<ItemConvertible> ORE_SMELT_BEEDRILLITE = List.of(
             MegastonesBlocks.ORE_BEEDRILLITE,
-            MegastonesBlocks.ORE_DEEPSLATE_BEEDRILLITE);
+            MegastonesBlocks.ORE_DEEPSLATE_BEEDRILLITE,
+            MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE);
 
     private static final List<ItemConvertible> ORE_SMELT_BLASTOISINITE = List.of(
             MegastonesBlocks.ORE_BLASTOISINITE,
-            MegastonesBlocks.ORE_DEEPSLATE_BLASTOISINITE);
+            MegastonesBlocks.ORE_DEEPSLATE_BLASTOISINITE,
+            MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE);
 
     private static final List<ItemConvertible> ORE_SMELT_CHARIZARDITEX = List.of(
             MegastonesBlocks.ORE_CHARIZARDITEX,
-            MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
+            MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEX,
+            MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX);
 
     private static final List<ItemConvertible> ORE_SMELT_CHARIZARDITEY = List.of(
             MegastonesBlocks.ORE_CHARIZARDITEY,
-            MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
+            MegastonesBlocks.ORE_DEEPSLATE_CHARIZARDITEY,
+            MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY);
 
     private static final List<ItemConvertible> ORE_SMELT_GENGARITE = List.of(
             MegastonesBlocks.ORE_GENGARITE,
-            MegastonesBlocks.ORE_DEEPSLATE_GENGARITE);
+            MegastonesBlocks.ORE_DEEPSLATE_GENGARITE,
+            MegastonesBlocks.ORE_CRYSTAL_GENGARITE);
 
     private static final List<ItemConvertible> ORE_SMELT_GYARADOSITE = List.of(
             MegastonesBlocks.ORE_GYARADOSITE,
-            MegastonesBlocks.ORE_DEEPSLATE_GYARADOSITE);
+            MegastonesBlocks.ORE_DEEPSLATE_GYARADOSITE,
+            MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE);
 
     private static final List<ItemConvertible> ORE_SMELT_KANGASKHANITE = List.of(
             MegastonesBlocks.ORE_KANGASKHANITE,
-            MegastonesBlocks.ORE_DEEPSLATE_KANGASKHANITE);
+            MegastonesBlocks.ORE_DEEPSLATE_KANGASKHANITE,
+            MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE);
 
     private static final List<ItemConvertible> ORE_SMELT_MEWTWONITEX = List.of(
             MegastonesBlocks.ORE_MEWTWONITEX,
-            MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEX);
+            MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEX,
+            MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX);
 
     private static final List<ItemConvertible> ORE_SMELT_MEWTWONITEY = List.of(
             MegastonesBlocks.ORE_MEWTWONITEY,
-            MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEY);
+            MegastonesBlocks.ORE_DEEPSLATE_MEWTWONITEY,
+            MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY);
 
     private static final List<ItemConvertible> ORE_SMELT_PIDGEOTITE = List.of(
             MegastonesBlocks.ORE_PIDGEOTITE,
-            MegastonesBlocks.ORE_DEEPSLATE_PIDGEOTITE);
+            MegastonesBlocks.ORE_DEEPSLATE_PIDGEOTITE,
+            MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE);
 
     private static final List<ItemConvertible> ORE_SMELT_PINSIRITE = List.of(
             MegastonesBlocks.ORE_PINSIRITE,
-            MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE);
+            MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE,
+            MegastonesBlocks.ORE_CRYSTAL_PINSIRITE);
 
     private static final List<ItemConvertible> ORE_SMELT_SLOWBRONITE = List.of(
             MegastonesBlocks.ORE_SLOWBRONITE,
-            MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE);
+            MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE,
+            MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE);
 
     private static final List<ItemConvertible> ORE_SMELT_VENUSAURITE = List.of(
             MegastonesBlocks.ORE_VENUSAURITE,
-            MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE);
-
+            MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE,
+            MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE);
 
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);

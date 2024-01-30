@@ -55,13 +55,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE)
                 .add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE)
                 .add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE)
+                // Crystal ore
+                .add(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX)
+                .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY)
+                .add(MegastonesBlocks.ORE_CRYSTAL_GENGARITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX)
+                .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY)
+                .add(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE)
 
-                ;
-
-
-        getOrCreateTagBuilder(ModTags.Blocks.ORE_BIOMESHARDS)
-                .add(MegastonesBlocks.ORE_FOREST_SHARD)
-                .add(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD)
                 ;
 
         getOrCreateTagBuilder(ModTags.Blocks.GEODE_WALLS)
@@ -103,10 +113,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                .add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE)
                .add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE)
                .add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE)
-
-               // Biome/Shard Ores
-               .add(MegastonesBlocks.ORE_FOREST_SHARD)
-               .add(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD)
+               // Crystal ore
+               .add(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX)
+               .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY)
+               .add(MegastonesBlocks.ORE_CRYSTAL_GENGARITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX)
+               .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY)
+               .add(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE)
+               .add(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE)
 
                 // Megastone Geode Block
                .add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
@@ -159,10 +181,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE)
                 .add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE)
                 .add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE)
-
-                // Biome/Shard Ore
-                .add(MegastonesBlocks.ORE_FOREST_SHARD)
-                .add(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD)
+                // Crystal ore
+                .add(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX)
+                .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY)
+                .add(MegastonesBlocks.ORE_CRYSTAL_GENGARITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX)
+                .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY)
+                .add(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE)
+                .add(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE)
 
                 ;
 
@@ -174,7 +208,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 ;
 
          getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS)
-                // Megastone Geode Block
+                 // Stone ore
                  .add(MegastonesBlocks.ORE_AERODACTYLITE)
                  .add(MegastonesBlocks.ORE_ALAKAZITE)
                  .add(MegastonesBlocks.ORE_BEEDRILLITE)
@@ -190,7 +224,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(MegastonesBlocks.ORE_PINSIRITE)
                  .add(MegastonesBlocks.ORE_SLOWBRONITE)
                  .add(MegastonesBlocks.ORE_VENUSAURITE)
-
+                 // Deepslate ore
                  .add(MegastonesBlocks.ORE_DEEPSLATE_AERODACTYLITE)
                  .add(MegastonesBlocks.ORE_DEEPSLATE_ALAKAZITE)
                  .add(MegastonesBlocks.ORE_DEEPSLATE_BEEDRILLITE)
@@ -206,6 +240,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                  .add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE)
                  .add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE)
                  .add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE)
+                 // Crystal ore
+                 .add(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_GENGARITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE)
+                 .add(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE)
 
                 .add(CobblemonBlocks.DAWN_STONE_ORE)
                 .add(CobblemonBlocks.DUSK_STONE_ORE)

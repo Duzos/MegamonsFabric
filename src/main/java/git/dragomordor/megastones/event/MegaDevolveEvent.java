@@ -29,8 +29,6 @@ public class MegaDevolveEvent {
         System.out.println("Pokemon: " + pokemon);
         System.out.println("Previous Item: " + previousItemStack);
         System.out.println("New Item: " + newItemStack);
-
-
         MegaDevolveCheck(pokemon);
     }
 

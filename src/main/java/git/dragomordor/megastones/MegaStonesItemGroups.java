@@ -18,14 +18,10 @@ public class MegaStonesItemGroups {
                     .icon(() -> new ItemStack(MegastonesItems.KEY_STONE)).entries((displayContext, entries) -> {
 
                         // Items
-
                         // KeyStoneItem
                         entries.add(MegastonesItems.KEY_STONE);
-
                         // MegaCuffItem
                         entries.add(MegastonesItems.MEGA_CUFF);
-
-
                         // RawMegaStoneItems
                         entries.add(MegastonesItems.RAW_AERODACTYLITE);
                         entries.add(MegastonesItems.RAW_ALAKAZITE);
@@ -42,7 +38,6 @@ public class MegaStonesItemGroups {
                         entries.add(MegastonesItems.RAW_PINSIRITE);
                         entries.add(MegastonesItems.RAW_SLOWBRONITE);
                         entries.add(MegastonesItems.RAW_VENUSAURITE);
-
                         // CutMegaStoneItems
                         entries.add(MegastonesItems.CUT_AERODACTYLITE);
                         entries.add(MegastonesItems.CUT_ALAKAZITE);
@@ -93,17 +88,22 @@ public class MegaStonesItemGroups {
                         entries.add(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE);
                         entries.add(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE);
                         entries.add(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE);
-
-
-                    // Biome / Shard ores
-                        entries.add(MegastonesBlocks.ORE_FOREST_SHARD);
-                        entries.add(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD);
-
-                        // Biome shards
-                        entries.add(MegastonesItems.FOREST_SHARD);
-
-                        // Biome Raw Megastones
-                        entries.add(MegastonesItems.FOREST_RAW_MEGASTONE);
+                        // Crystal ore
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_GENGARITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE);
+                        entries.add(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE);
 
                     // megastone Geode wall
                         entries.add(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);

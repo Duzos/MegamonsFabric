@@ -22,10 +22,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-
-
-
-    // ores drop raw stones
+        // Megastone Ores drop raw stones
         // stone ores
         addDrop(MegastonesBlocks.ORE_AERODACTYLITE, megastoneOreDrops(MegastonesBlocks.ORE_AERODACTYLITE, MegastonesItems.RAW_AERODACTYLITE));
         addDrop(MegastonesBlocks.ORE_ALAKAZITE, megastoneOreDrops(MegastonesBlocks.ORE_ALAKAZITE, MegastonesItems.RAW_ALAKAZITE));
@@ -58,6 +55,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE, megastoneOreDrops(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE, MegastonesItems.RAW_PINSIRITE));
         addDrop(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE, megastoneOreDrops(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE, MegastonesItems.RAW_SLOWBRONITE));
         addDrop(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE, megastoneOreDrops(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE, MegastonesItems.RAW_VENUSAURITE));
+        // crystal ores
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE, MegastonesItems.RAW_AERODACTYLITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE, MegastonesItems.RAW_ALAKAZITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE, MegastonesItems.RAW_BEEDRILLITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE, MegastonesItems.RAW_BLASTOISINITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX, MegastonesItems.RAW_CHARIZARDITEX));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY, MegastonesItems.RAW_CHARIZARDITEY));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_GENGARITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_GENGARITE, MegastonesItems.RAW_GENGARITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE, MegastonesItems.RAW_GYARADOSITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE, MegastonesItems.RAW_KANGASKHANITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX, MegastonesItems.RAW_MEWTWONITEX));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY, MegastonesItems.RAW_MEWTWONITEY));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE, MegastonesItems.RAW_PIDGEOTITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE, MegastonesItems.RAW_PINSIRITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE, MegastonesItems.RAW_SLOWBRONITE));
+        addDrop(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE, megastoneOreDrops(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE, MegastonesItems.RAW_VENUSAURITE));
 
         // Megastone Geode Block
         addDrop(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);

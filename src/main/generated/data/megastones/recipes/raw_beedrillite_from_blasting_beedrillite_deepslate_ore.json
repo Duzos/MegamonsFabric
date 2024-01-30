@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "megastones",
+  "ingredient": {
+    "item": "megastones:beedrillite_deepslate_ore"
+  },
+  "result": "megastones:raw_beedrillite"
+}

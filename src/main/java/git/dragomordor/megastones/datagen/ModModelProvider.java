@@ -49,10 +49,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_DEEPSLATE_PINSIRITE);
         blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_DEEPSLATE_SLOWBRONITE);
         blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_DEEPSLATE_VENUSAURITE);
-
-        // Biome/ Shard ore
-        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_FOREST_SHARD);
-        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_DEEPSLATE_FOREST_SHARD);
+        // Crystal Ore -Megastone
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_AERODACTYLITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_ALAKAZITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_BEEDRILLITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_BLASTOISINITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEX);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_CHARIZARDITEY);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_GENGARITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_GYARADOSITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_KANGASKHANITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEX);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_MEWTWONITEY);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_PIDGEOTITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_PINSIRITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_SLOWBRONITE);
+        blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.ORE_CRYSTAL_VENUSAURITE);
 
         // Megastone Geode Block
         blockStateModelGenerator.registerSimpleCubeAll(MegastonesBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);
@@ -103,12 +115,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         // MegaCuffItem
         itemModelGenerator.register(MegastonesItems.MEGA_CUFF, Models.GENERATED);
-
-        // Biome Shard Items
-        itemModelGenerator.register(MegastonesItems.FOREST_SHARD, Models.GENERATED);
-
-        // Biome Raw Megastone
-        itemModelGenerator.register(MegastonesItems.FOREST_RAW_MEGASTONE, Models.GENERATED);
 
         // metal Detector item
         itemModelGenerator.register(MegastonesItems.METAL_DETECTOR, Models.GENERATED);

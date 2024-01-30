@@ -51,18 +51,8 @@ public class MegastonesItems {
     // Register Mega Cuff Item
     public static final MegaCuffItem MEGA_CUFF = registerMegaCuffItem("mega_cuff", new MegaCuffItem());
 
-
-    // Register Biome Shard Items
-    public static final BiomeShardItem FOREST_SHARD = registerBiomeShardItem("forest_shard",new BiomeShardItem("forest"));
-
-
-    // Register Biome Raw stone Items
-    public static final BiomeRawMegastoneItem FOREST_RAW_MEGASTONE = registerBiomeRawMegastoneItem("forest_raw_megastone",new BiomeRawMegastoneItem("forest"));
-
     // Register metal Detector item
     public static final MetalDetectorItem METAL_DETECTOR = registerMetalDetectoritem("metal_detector",new MetalDetectorItem());
-
-
 
     // Helper method to register items
     // register RawMegaStoneItem
@@ -83,27 +73,15 @@ public class MegastonesItems {
         return Registry.register(Registries.ITEM, new Identifier(MegastonesMod.MODID, name),megaCuffItem);
     }
 
-    // Register BiomeShardItem
-    private static BiomeShardItem registerBiomeShardItem(String name, BiomeShardItem biomeShardItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegastonesMod.MODID, name),biomeShardItem);
-    }
-    // Register BiomeRawMegastoneItem
-    private static BiomeRawMegastoneItem registerBiomeRawMegastoneItem(String name, BiomeRawMegastoneItem biomeRawMegastoneItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegastonesMod.MODID, name),biomeRawMegastoneItem);
-    }
-
     // register MetalDetectorItem
     private static MetalDetectorItem registerMetalDetectoritem(String name, MetalDetectorItem metalDetectorItem) {
         return Registry.register(Registries.ITEM, new Identifier(MegastonesMod.MODID, name),metalDetectorItem);
     }
 
-
     // Other functions
     // Register all mod items
     public static void registerModItems() {
         MegastonesMod.LOGGER.info("Register Mod Items for " + MegastonesMod.MODID) ;
-
-
     }
 
     public static ItemStack getItemStackByName(String name) {
@@ -121,9 +99,5 @@ public class MegastonesItems {
           Identifier identifier  = new Identifier(MegastonesMod.MODID,name);
         return Registries.ITEM.get(identifier);
     }
-
-
-
-
 
 }

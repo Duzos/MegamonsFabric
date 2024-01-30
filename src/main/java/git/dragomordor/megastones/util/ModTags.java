@@ -14,9 +14,6 @@ public class ModTags {
         public static final TagKey<Block> ORE_MEGASTONES =
                 createTag("ore_megastones");
 
-        public static final TagKey<Block> ORE_BIOMESHARDS =
-                createTag("ore_biomeshards");
-
         public static final TagKey<Block> GEODE_WALLS =
                 createTag("geode_walls");
 
@@ -26,12 +23,6 @@ public class ModTags {
 
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS =
                 createTag("metal_detector_detectable_blocks");
-
-
-
-
-
-
 
 
         private static TagKey<Block> createTag(String name) {
@@ -57,11 +48,6 @@ public class ModTags {
 
 
     }
-
-
-
-
-
 
 
 }

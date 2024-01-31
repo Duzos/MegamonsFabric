@@ -1,0 +1,9 @@
+// 1.20.1	2024-01-31T13:25:55.0124796	Ascension's Megamons/Tags for minecraft:block
+d95a0e0b097e9968c2df4c80a005b51c0f213dbb data\minecraft\tags\blocks\mineable\pickaxe.json
+b022e8fe03d0dd0bcdf957a450696592ed6dc100 data\megamons\tags\blocks\metal_detector_detectable_blocks.json
+b022e8fe03d0dd0bcdf957a450696592ed6dc100 data\minecraft\tags\blocks\needs_diamond_tool.json
+6cfa73f54017a4bdbb74b27b76d8cdd2f703fa29 data\megamons\tags\blocks\geode_walls.json
+b022e8fe03d0dd0bcdf957a450696592ed6dc100 data\megamons\tags\blocks\ore_megastones.json
+6cfa73f54017a4bdbb74b27b76d8cdd2f703fa29 data\minecraft\tags\blocks\needs_iron_tool.json
+6cfa73f54017a4bdbb74b27b76d8cdd2f703fa29 data\megamons\tags\blocks\metal_detector_destroyable_blocks.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json

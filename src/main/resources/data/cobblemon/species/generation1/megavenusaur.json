@@ -303,7 +303,7 @@
       "requiredContext": "megamons:mega_cuff"
     }
   ],
-  "baseScale": 2,
+  "baseScale": 1,
   "hitbox": {
     "width": 1.5,
     "height": 1.4,

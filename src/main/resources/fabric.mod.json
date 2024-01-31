@@ -1,27 +1,27 @@
 {
 	"schemaVersion": 1,
-	"id": "megastones",
+	"id": "megamons",
 	"version": "1.0.0",
-	"name": "Cobblemon Megastones",
-	"description": "A mod that adds Mega Stones and Mega ores",
+	"name": "Ascension's Megamons",
+	"description": "Cobblemons first publicly available Mega Mod for Cobblemon",
 	"authors": [
 		"Dragomordor"
 	],
 	"license": "MIT",
-	"icon": "assets/megastones/icon.png",
+	"icon": "assets/megamons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"git.dragomordor.megastones.MegastonesMod"
+			"git.dragomordor.megamons.MegamonsMod"
 		],
 		"fabric-datagen": [
 			{
-				"value": "git.dragomordor.megastones.MegaStonesDataGenerator"
+				"value": "git.dragomordor.megamons.MegamonsDataGenerator"
 			}
 		]
 	},
 	"mixins": [
-		"megastones.mixins.json"
+		"megamons.mixins.json"
 	],
 	"depends": {
 		"java": ">=17",

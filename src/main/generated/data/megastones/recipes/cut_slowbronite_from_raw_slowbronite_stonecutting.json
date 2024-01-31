@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "megastones:raw_slowbronite"
-  },
-  "result": "megastones:cut_slowbronite"
-}

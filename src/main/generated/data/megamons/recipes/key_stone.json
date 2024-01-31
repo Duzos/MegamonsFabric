@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "megamons:geode_megastone_crystal_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "GDG",
+    "DCD",
+    "GDG"
+  ],
+  "result": {
+    "item": "megamons:key_stone"
+  },
+  "show_notification": true
+}

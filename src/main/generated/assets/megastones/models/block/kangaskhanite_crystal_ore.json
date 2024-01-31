@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "megastones:block/kangaskhanite_crystal_ore"
-  }
-}

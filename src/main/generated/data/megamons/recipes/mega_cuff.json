@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "megamons:key_stone"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "iKi",
+    "i i",
+    "i i"
+  ],
+  "result": {
+    "item": "megamons:mega_cuff"
+  },
+  "show_notification": true
+}

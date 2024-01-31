@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "megamons:raw_aerodactylite",
+    "megamons:raw_alakazite",
+    "megamons:raw_beedrillite",
+    "megamons:raw_blastoisinite",
+    "megamons:raw_charizarditex",
+    "megamons:raw_charizarditey",
+    "megamons:raw_gengarite",
+    "megamons:raw_gyaradosite",
+    "megamons:raw_kangaskhanite",
+    "megamons:raw_mewtwonitex",
+    "megamons:raw_mewtwonitey",
+    "megamons:raw_pidgeotite",
+    "megamons:raw_pinsirite",
+    "megamons:raw_slowbronite",
+    "megamons:raw_venusaurite"
+  ]
+}

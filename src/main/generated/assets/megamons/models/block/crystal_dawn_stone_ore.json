@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megamons:block/crystal_dawn_stone_ore"
+  }
+}

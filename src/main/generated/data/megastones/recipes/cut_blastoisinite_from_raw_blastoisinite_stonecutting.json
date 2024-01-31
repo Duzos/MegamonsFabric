@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "megastones:raw_blastoisinite"
-  },
-  "result": "megastones:cut_blastoisinite"
-}

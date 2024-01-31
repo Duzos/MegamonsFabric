@@ -1,9 +1,0 @@
-// 1.20.1	2024-01-31T00:19:07.2249888	Cobblemon Megastones/Tags for minecraft:block
-36811b6290c4f69fef761f6c8d90967638078565 data\minecraft\tags\blocks\mineable\pickaxe.json
-80adf1e9c253e5f709c176f07239b698662692d1 data\minecraft\tags\blocks\needs_diamond_tool.json
-9062dabdf2dae82347aa88afd8363c21c2379826 data\megastones\tags\blocks\metal_detector_detectable_blocks.json
-dd27a04b3191df10e16e2290f3484f0cc4c2378e data\minecraft\tags\blocks\needs_iron_tool.json
-80adf1e9c253e5f709c176f07239b698662692d1 data\megastones\tags\blocks\ore_megastones.json
-dd27a04b3191df10e16e2290f3484f0cc4c2378e data\megastones\tags\blocks\geode_walls.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
-dd27a04b3191df10e16e2290f3484f0cc4c2378e data\megastones\tags\blocks\metal_detector_destroyable_blocks.json

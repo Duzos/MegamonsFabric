@@ -1,9 +1,9 @@
 {
   "head": "head",
-  "portraitScale": 1.7,
-  "portraitTranslation": [-0.5, -1.0, 0.0],
-  "profileScale": 0.95,
-  "profileTranslation": [0.05, 0.3, 0.0],
+  "portraitScale": 1.2,
+  "portraitTranslation": [-0.75, 0, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.05, 0.8, 0.0],
   "faint": "bedrock(megavenusaur, faint, true)",
   "cry":  "bedrock(venusaur, cry)",
   "poses": {
@@ -27,8 +27,7 @@
       "poseTypes": ["WALK"],
       "animations": [
         "look",
-        "bedrock(megavenusaur, ground_walk)",
-        "bedrock(megavenusaur, ground_idle)"
+        "bedrock(megavenusaur, ground_walk)"
       ],
       "quirks": [
         {

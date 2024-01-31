@@ -68,9 +68,9 @@
       }
     },
     "crack": {
-      "base_crack_size": 0.4,
+      "base_crack_size": 1.0,
       "crack_point_offset": 1,
-      "generate_crack_chance": 0.1
+      "generate_crack_chance": 0.3
     },
     "distribution_points": {
       "type": "minecraft:uniform",
@@ -81,10 +81,10 @@
     },
     "invalid_blocks_threshold": 1,
     "layers": {
-      "filling": 1.2,
-      "inner_layer": 2.5,
-      "middle_layer": 3.0,
-      "outer_layer": 3.5
+      "filling": 1.0,
+      "inner_layer": 2.8,
+      "middle_layer": 2.9,
+      "outer_layer": 3.9
     },
     "max_gen_offset": 16,
     "min_gen_offset": -16,

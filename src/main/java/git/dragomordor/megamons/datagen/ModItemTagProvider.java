@@ -1,5 +1,6 @@
 package git.dragomordor.megamons.datagen;
 
+import com.cobblemon.mod.common.api.tags.CobblemonBiomeTags;
 import git.dragomordor.megamons.item.MegamonsItems;
 import git.dragomordor.megamons.tags.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -49,10 +50,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(MegamonsItems.RAW_PINSIRITE)
                 .add(MegamonsItems.RAW_SLOWBRONITE)
                 .add(MegamonsItems.RAW_VENUSAURITE);
-
-
-        // Biome Shard items
-
 
     }
 }

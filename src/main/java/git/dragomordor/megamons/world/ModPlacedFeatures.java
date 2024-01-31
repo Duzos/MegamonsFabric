@@ -38,50 +38,50 @@ public class ModPlacedFeatures {
 
         //Geodes
         register(context, AERODACTYLITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.AERODACTYLITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, ALAKAZITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ALAKAZITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, BEEDRILLITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BEEDRILLITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, BLASTOISINITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BLASTOISINITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, CHARIZARDITEX_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CHARIZARDITEX_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, CHARIZARDITEY_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CHARIZARDITEY_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, GENGARITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GENGARITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, GYARADOSITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GYARADOSITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, KANGASKHANITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.KANGASKHANITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, MEWTWONITEX_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MEWTWONITEX_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, MEWTWONITEY_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MEWTWONITEY_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, PIDGEOTITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PIDGEOTITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, PINSIRITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PINSIRITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
         register(context, SLOWBRONITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SLOWBRONITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
        register(context, VENUSAURITE_GEODE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.VENUSAURITE_GEODE_KEY),
-                RarityFilterPlacementModifier.of(50), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(6),
-                        YOffset.fixed(40)), BiomePlacementModifier.of());
+                RarityFilterPlacementModifier.of(600), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.aboveBottom(6),
+                        YOffset.fixed(30)), BiomePlacementModifier.of());
 
     }
 

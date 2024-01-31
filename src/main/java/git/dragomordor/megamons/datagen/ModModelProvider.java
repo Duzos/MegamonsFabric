@@ -17,38 +17,38 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
     // Blocks
-        // Stone Ore -Megastone
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_AERODACTYLITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_ALAKAZITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BEEDRILLITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BLASTOISINITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEX);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEY);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GENGARITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GYARADOSITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_KANGASKHANITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEX);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEY);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PIDGEOTITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PINSIRITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_SLOWBRONITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_VENUSAURITE);
-        // Deepslate Ore -Megastone
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
+//        // Stone Ore -Megastone
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_AERODACTYLITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_ALAKAZITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BEEDRILLITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_BLASTOISINITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEX);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CHARIZARDITEY);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GENGARITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_GYARADOSITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_KANGASKHANITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEX);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_MEWTWONITEY);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PIDGEOTITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_PINSIRITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_SLOWBRONITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_VENUSAURITE);
+//        // Deepslate Ore -Megastone
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
+//        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
         // Crystal Ore -Megastone
         blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);
         blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE);
@@ -80,8 +80,8 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         // Megastone Geode Block
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);
-        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.GEODE_MEGASTONE_SHELL_WALL);
+        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ANISTARITE_GEODE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK);
 
 
     }

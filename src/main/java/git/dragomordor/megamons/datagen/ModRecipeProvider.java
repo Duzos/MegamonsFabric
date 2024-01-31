@@ -1,5 +1,6 @@
 package git.dragomordor.megamons.datagen;
 
+import com.cobblemon.mod.common.CobblemonItems;
 import git.dragomordor.megamons.MegamonsMod;
 import git.dragomordor.megamons.block.MegamonsBlocks;
 import git.dragomordor.megamons.item.MegamonsItems;
@@ -23,79 +24,111 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     // Item lists
     // Megastone smelt tables
     private static final List<ItemConvertible> ORE_SMELT_AERODACTYLITE = List.of(
-            MegamonsBlocks.ORE_AERODACTYLITE,
-            MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE,
+//            MegamonsBlocks.ORE_AERODACTYLITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE,
             MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);
 
     private static final List<ItemConvertible> ORE_SMELT_ALAKAZITE = List.of(
-            MegamonsBlocks.ORE_ALAKAZITE,
-            MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE,
+//            MegamonsBlocks.ORE_ALAKAZITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE,
             MegamonsBlocks.ORE_CRYSTAL_ALAKAZITE);
 
     private static final List<ItemConvertible> ORE_SMELT_BEEDRILLITE = List.of(
-            MegamonsBlocks.ORE_BEEDRILLITE,
-            MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE,
+//            MegamonsBlocks.ORE_BEEDRILLITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE,
             MegamonsBlocks.ORE_CRYSTAL_BEEDRILLITE);
 
     private static final List<ItemConvertible> ORE_SMELT_BLASTOISINITE = List.of(
-            MegamonsBlocks.ORE_BLASTOISINITE,
-            MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE,
+//            MegamonsBlocks.ORE_BLASTOISINITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE,
             MegamonsBlocks.ORE_CRYSTAL_BLASTOISINITE);
 
     private static final List<ItemConvertible> ORE_SMELT_CHARIZARDITEX = List.of(
-            MegamonsBlocks.ORE_CHARIZARDITEX,
-            MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX,
+//            MegamonsBlocks.ORE_CHARIZARDITEX,
+//            MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX,
             MegamonsBlocks.ORE_CRYSTAL_CHARIZARDITEX);
 
     private static final List<ItemConvertible> ORE_SMELT_CHARIZARDITEY = List.of(
-            MegamonsBlocks.ORE_CHARIZARDITEY,
-            MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY,
+//            MegamonsBlocks.ORE_CHARIZARDITEY,
+//            MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY,
             MegamonsBlocks.ORE_CRYSTAL_CHARIZARDITEY);
 
     private static final List<ItemConvertible> ORE_SMELT_GENGARITE = List.of(
-            MegamonsBlocks.ORE_GENGARITE,
-            MegamonsBlocks.ORE_DEEPSLATE_GENGARITE,
+//            MegamonsBlocks.ORE_GENGARITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GENGARITE,
             MegamonsBlocks.ORE_CRYSTAL_GENGARITE);
 
     private static final List<ItemConvertible> ORE_SMELT_GYARADOSITE = List.of(
-            MegamonsBlocks.ORE_GYARADOSITE,
-            MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE,
+//            MegamonsBlocks.ORE_GYARADOSITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE,
             MegamonsBlocks.ORE_CRYSTAL_GYARADOSITE);
 
     private static final List<ItemConvertible> ORE_SMELT_KANGASKHANITE = List.of(
-            MegamonsBlocks.ORE_KANGASKHANITE,
-            MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE,
+//            MegamonsBlocks.ORE_KANGASKHANITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE,
             MegamonsBlocks.ORE_CRYSTAL_KANGASKHANITE);
 
     private static final List<ItemConvertible> ORE_SMELT_MEWTWONITEX = List.of(
-            MegamonsBlocks.ORE_MEWTWONITEX,
-            MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX,
+//            MegamonsBlocks.ORE_MEWTWONITEX,
+//            MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX,
             MegamonsBlocks.ORE_CRYSTAL_MEWTWONITEX);
 
     private static final List<ItemConvertible> ORE_SMELT_MEWTWONITEY = List.of(
-            MegamonsBlocks.ORE_MEWTWONITEY,
-            MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY,
+//            MegamonsBlocks.ORE_MEWTWONITEY,
+//            MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY,
             MegamonsBlocks.ORE_CRYSTAL_MEWTWONITEY);
 
     private static final List<ItemConvertible> ORE_SMELT_PIDGEOTITE = List.of(
-            MegamonsBlocks.ORE_PIDGEOTITE,
-            MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE,
+//            MegamonsBlocks.ORE_PIDGEOTITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE,
             MegamonsBlocks.ORE_CRYSTAL_PIDGEOTITE);
 
     private static final List<ItemConvertible> ORE_SMELT_PINSIRITE = List.of(
-            MegamonsBlocks.ORE_PINSIRITE,
-            MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE,
+//            MegamonsBlocks.ORE_PINSIRITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE,
             MegamonsBlocks.ORE_CRYSTAL_PINSIRITE);
 
     private static final List<ItemConvertible> ORE_SMELT_SLOWBRONITE = List.of(
-            MegamonsBlocks.ORE_SLOWBRONITE,
-            MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE,
+//            MegamonsBlocks.ORE_SLOWBRONITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE,
             MegamonsBlocks.ORE_CRYSTAL_SLOWBRONITE);
 
     private static final List<ItemConvertible> ORE_SMELT_VENUSAURITE = List.of(
-            MegamonsBlocks.ORE_VENUSAURITE,
-            MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE,
+//            MegamonsBlocks.ORE_VENUSAURITE,
+//            MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE,
             MegamonsBlocks.ORE_CRYSTAL_VENUSAURITE);
+
+    // Evo ores
+    private static final List<ItemConvertible> ORE_SMELT_DAWN_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_DAWN_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_DUSK_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_DUSK_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_FIRE_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_FIRE_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_ICE_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_ICE_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_LEAF_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_LEAF_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_MOON_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_MOON_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_SHINY_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_SHINY_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_SUN_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_SUN_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_THUNDER_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE);
+
+    private static final List<ItemConvertible> ORE_SMELT_WATER_EVO = List.of(
+            MegamonsBlocks.CRYSTAL_WATER_STONE_ORE);
+
 
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
@@ -103,7 +136,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-
 
         // Raw Megastone to Cut Megastone via stonecutter
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE, 1);
@@ -157,6 +189,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, ORE_SMELT_SLOWBRONITE, RecipeCategory.MISC, MegamonsItems.RAW_SLOWBRONITE, 1.0F, 100, "megastones");
         offerBlasting(exporter, ORE_SMELT_VENUSAURITE, RecipeCategory.MISC, MegamonsItems.RAW_VENUSAURITE, 1.0F, 100, "megastones");
 
+        // Evo stones
+        offerSmelting(exporter, ORE_SMELT_DAWN_EVO, RecipeCategory.MISC, CobblemonItems.DAWN_STONE, 1.0F, 200, "evo_stones_dawn");
+        offerSmelting(exporter, ORE_SMELT_DUSK_EVO, RecipeCategory.MISC, CobblemonItems.DUSK_STONE, 1.0F, 200, "evo_stones_dusk");
+        offerSmelting(exporter, ORE_SMELT_FIRE_EVO, RecipeCategory.MISC, CobblemonItems.FIRE_STONE, 1.0F, 200, "evo_stones_fire");
+        offerSmelting(exporter, ORE_SMELT_ICE_EVO, RecipeCategory.MISC, CobblemonItems.ICE_STONE, 1.0F, 200, "evo_stones_ice");
+        offerSmelting(exporter, ORE_SMELT_LEAF_EVO, RecipeCategory.MISC, CobblemonItems.LEAF_STONE, 1.0F, 200, "evo_stones_leaf");
+        offerSmelting(exporter, ORE_SMELT_MOON_EVO, RecipeCategory.MISC, CobblemonItems.MOON_STONE, 1.0F, 200, "evo_stones_moon");
+        offerSmelting(exporter, ORE_SMELT_SHINY_EVO, RecipeCategory.MISC, CobblemonItems.SHINY_STONE, 1.0F, 200, "evo_stones_shiny");
+        offerSmelting(exporter, ORE_SMELT_SUN_EVO, RecipeCategory.MISC, CobblemonItems.SUN_STONE, 1.0F, 200, "evo_stones_sun");
+        offerSmelting(exporter, ORE_SMELT_THUNDER_EVO, RecipeCategory.MISC, CobblemonItems.THUNDER_STONE, 1.0F, 200, "evo_stones_thunder");
+        offerSmelting(exporter, ORE_SMELT_WATER_EVO, RecipeCategory.MISC, CobblemonItems.WATER_STONE, 1.0F, 200, "evo_stones_water");
+
+        offerBlasting(exporter, ORE_SMELT_DAWN_EVO, RecipeCategory.MISC, CobblemonItems.DAWN_STONE, 1.0F, 100, "evo_stones_dawn");
+        offerBlasting(exporter, ORE_SMELT_DUSK_EVO, RecipeCategory.MISC, CobblemonItems.DUSK_STONE, 1.0F, 100, "evo_stones_dusk");
+        offerBlasting(exporter, ORE_SMELT_FIRE_EVO, RecipeCategory.MISC, CobblemonItems.FIRE_STONE, 1.0F, 100, "evo_stones_fire");
+        offerBlasting(exporter, ORE_SMELT_ICE_EVO, RecipeCategory.MISC, CobblemonItems.ICE_STONE, 1.0F, 100, "evo_stones_ice");
+        offerBlasting(exporter, ORE_SMELT_LEAF_EVO, RecipeCategory.MISC, CobblemonItems.LEAF_STONE, 1.0F, 100, "evo_stones_leaf");
+        offerBlasting(exporter, ORE_SMELT_MOON_EVO, RecipeCategory.MISC, CobblemonItems.MOON_STONE, 1.0F, 100, "evo_stones_moon");
+        offerBlasting(exporter, ORE_SMELT_SHINY_EVO, RecipeCategory.MISC, CobblemonItems.SHINY_STONE, 1.0F, 100, "evo_stones_shiny");
+        offerBlasting(exporter, ORE_SMELT_SUN_EVO, RecipeCategory.MISC, CobblemonItems.SUN_STONE, 1.0F, 100, "evo_stones_sun");
+        offerBlasting(exporter, ORE_SMELT_THUNDER_EVO, RecipeCategory.MISC, CobblemonItems.THUNDER_STONE, 1.0F, 100, "evo_stones_thunder");
+        offerBlasting(exporter, ORE_SMELT_WATER_EVO, RecipeCategory.MISC, CobblemonItems.WATER_STONE, 1.0F, 100, "evo_stones_water");
+
+
     //Mega Cuff recipe
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, MegamonsItems.MEGA_CUFF,1)
                 .pattern("iKi")
@@ -171,14 +227,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     //Key Stone recipe
     ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, MegamonsItems.KEY_STONE,1)
                 .pattern("GDG")
-                .pattern("DCD")
+                .pattern("DAD")
                 .pattern("GDG")
                 .input('G', Items.GLASS)
                 .input('D', Items.DIAMOND)
-                .input('C', MegamonsBlocks.GEODE_MEGASTONE_CRYSTAL_WALL)
+                .input('A', MegamonsBlocks.ANISTARITE_GEODE_BLOCK)
                 .criterion(hasItem(Items.GLASS),conditionsFromItem(Items.GLASS))
                 .criterion(hasItem(Items.DIAMOND),conditionsFromItem(Items.DIAMOND))
-                .criterion(hasItem(MegamonsBlocks.GEODE_MEGASTONE_CRYSTAL_WALL),conditionsFromItem(MegamonsBlocks.GEODE_MEGASTONE_CRYSTAL_WALL))
+                .criterion(hasItem(MegamonsBlocks.ANISTARITE_GEODE_BLOCK),conditionsFromItem(MegamonsBlocks.ANISTARITE_GEODE_BLOCK))
                 .offerTo(exporter, new Identifier(MegamonsMod.MODID,getRecipeName(MegamonsItems.KEY_STONE)));
     }
 

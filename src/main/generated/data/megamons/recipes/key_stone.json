@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": {
-      "item": "megamons:geode_megastone_crystal_block"
+    "A": {
+      "item": "megamons:anistarite_geode_block"
     },
     "D": {
       "item": "minecraft:diamond"
@@ -14,7 +14,7 @@
   },
   "pattern": [
     "GDG",
-    "DCD",
+    "DAD",
     "GDG"
   ],
   "result": {

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "evo_stones_water",
+  "ingredient": {
+    "item": "megamons:crystal_water_stone_ore"
+  },
+  "result": "cobblemon:water_stone"
+}

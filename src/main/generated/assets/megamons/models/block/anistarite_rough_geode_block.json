@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megamons:block/anistarite_rough_geode_block"
+  }
+}

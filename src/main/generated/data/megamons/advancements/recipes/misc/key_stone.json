@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond": {
+    "has_anistarite_geode_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:diamond"
+              "megamons:anistarite_geode_block"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_geode_megastone_crystal_block": {
+    "has_diamond": {
       "conditions": {
         "items": [
           {
             "items": [
-              "megamons:geode_megastone_crystal_block"
+              "minecraft:diamond"
             ]
           }
         ]
@@ -48,7 +48,7 @@
     [
       "has_glass",
       "has_diamond",
-      "has_geode_megastone_crystal_block",
+      "has_anistarite_geode_block",
       "has_the_recipe"
     ]
   ],

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "evo_stones_fire",
+  "ingredient": {
+    "item": "megamons:crystal_fire_stone_ore"
+  },
+  "result": "cobblemon:fire_stone"
+}

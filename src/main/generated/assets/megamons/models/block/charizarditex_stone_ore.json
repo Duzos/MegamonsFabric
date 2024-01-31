@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "megamons:block/charizarditex_stone_ore"
-  }
-}

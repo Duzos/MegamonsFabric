@@ -14,12 +14,12 @@ public class MegamonsItemGroups {
 
     public static final ItemGroup TM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MegamonsMod.MODID, "key_stone"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.megastones"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup."+MegamonsMod.MODID))
                     .icon(() -> new ItemStack(MegamonsItems.KEY_STONE)).entries((displayContext, entries) -> {
 
                         // Items
-                        // Metal detector
-                        entries.add(MegamonsItems.METAL_DETECTOR);
+//                        // Metal detector
+//                        entries.add(MegamonsItems.METAL_DETECTOR);
                         // KeyStoneItem
                         entries.add(MegamonsItems.KEY_STONE);
                         // MegaCuffItem
@@ -58,42 +58,42 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsItems.CUT_VENUSAURITE);
 
                     // Blocks
-                        // Stone ore
-                        entries.add(MegamonsBlocks.ORE_AERODACTYLITE);
-                        entries.add(MegamonsBlocks.ORE_ALAKAZITE);
-                        entries.add(MegamonsBlocks.ORE_BEEDRILLITE);
-                        entries.add(MegamonsBlocks.ORE_BLASTOISINITE);
-                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEX);
-                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEY);
-                        entries.add(MegamonsBlocks.ORE_GENGARITE);
-                        entries.add(MegamonsBlocks.ORE_GYARADOSITE);
-                        entries.add(MegamonsBlocks.ORE_KANGASKHANITE);
-                        entries.add(MegamonsBlocks.ORE_MEWTWONITEX);
-                        entries.add(MegamonsBlocks.ORE_MEWTWONITEY);
-                        entries.add(MegamonsBlocks.ORE_PIDGEOTITE);
-                        entries.add(MegamonsBlocks.ORE_PINSIRITE);
-                        entries.add(MegamonsBlocks.ORE_SLOWBRONITE);
-                        entries.add(MegamonsBlocks.ORE_VENUSAURITE);
-                        // Deepslate ore
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
-                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
+//                        // Stone ore
+//                        entries.add(MegamonsBlocks.ORE_AERODACTYLITE);
+//                        entries.add(MegamonsBlocks.ORE_ALAKAZITE);
+//                        entries.add(MegamonsBlocks.ORE_BEEDRILLITE);
+//                        entries.add(MegamonsBlocks.ORE_BLASTOISINITE);
+//                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEX);
+//                        entries.add(MegamonsBlocks.ORE_CHARIZARDITEY);
+//                        entries.add(MegamonsBlocks.ORE_GENGARITE);
+//                        entries.add(MegamonsBlocks.ORE_GYARADOSITE);
+//                        entries.add(MegamonsBlocks.ORE_KANGASKHANITE);
+//                        entries.add(MegamonsBlocks.ORE_MEWTWONITEX);
+//                        entries.add(MegamonsBlocks.ORE_MEWTWONITEY);
+//                        entries.add(MegamonsBlocks.ORE_PIDGEOTITE);
+//                        entries.add(MegamonsBlocks.ORE_PINSIRITE);
+//                        entries.add(MegamonsBlocks.ORE_SLOWBRONITE);
+//                        entries.add(MegamonsBlocks.ORE_VENUSAURITE);
+//                        // Deepslate ore
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_AERODACTYLITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_ALAKAZITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BEEDRILLITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_BLASTOISINITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEX);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_CHARIZARDITEY);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GENGARITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_GYARADOSITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_KANGASKHANITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEX);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_MEWTWONITEY);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PIDGEOTITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_PINSIRITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_SLOWBRONITE);
+//                        entries.add(MegamonsBlocks.ORE_DEEPSLATE_VENUSAURITE);
                     // Crystal blocks
                         // Megastone Geode wall
-                        entries.add(MegamonsBlocks.GEODE_MEGASTONE_CRYSTAL_WALL);
-                        entries.add(MegamonsBlocks.GEODE_MEGASTONE_SHELL_WALL);
+                        entries.add(MegamonsBlocks.ANISTARITE_GEODE_BLOCK);
+                        entries.add(MegamonsBlocks.ANISTARITE_ROUGH_GEODE_BLOCK);
 
                         // Crystal ore
                         entries.add(MegamonsBlocks.ORE_CRYSTAL_AERODACTYLITE);

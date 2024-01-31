@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "megamons:geode_megastone_crystal_block",
-    "megamons:geode_megastone_shell_block"
+    "megamons:anistarite_geode_block",
+    "megamons:anistarite_rough_geode_block"
   ]
 }

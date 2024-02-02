@@ -42,7 +42,6 @@ public class MegaCuffItem extends PokemonUseItem{
         ItemStack HeldItemStack = pokemon.heldItemNoCopy$common();
         Item HeldItemItem = HeldItemStack.getItem();
         Text HeldItemText = HeldItemStack.getName();
-        String HeldItemString = HeldItemText.getString();
 
         // Check if held item is in list of MegaStone Items
         boolean isHeldItemMegaStone = isInMegaStoneList(HeldItemItem, new MegastoneItemList().getMegastonesItemList());
@@ -97,8 +96,7 @@ public class MegaCuffItem extends PokemonUseItem{
                 for (int partySlot = 0; partySlot <= 5; partySlot++) {
                     PartyPosition partyPosition = new PartyPosition(partySlot);
                     Pokemon pokemonInSlot = pokemonInParty.get(partyPosition);
-                    if (pokemonInSlot==null) {
-                    } else {
+                    if (pokemonInSlot!=null) {
                         if (MegaPokemonToCheck.contains(pokemonInSlot.getSpecies().toString())) {
                             // Pokémon in party is a mega Pokémon
                             playerMegaCount++; // increase number of Mega Pokémon detected
@@ -111,8 +109,7 @@ public class MegaCuffItem extends PokemonUseItem{
                 }
                 // Check if Mega Pokémon is in pc
                 for (Pokemon pokemonToCheck: pokemonInPc) {
-                    if (pokemonToCheck==null) {
-                    } else {
+                    if (pokemonToCheck!=null) {
                         // Check whether any mega Pokémon are in pc
                         if (MegaPokemonToCheck.contains(pokemonToCheck.getSpecies().toString())) {
                             // Mega Pokémon is in pc

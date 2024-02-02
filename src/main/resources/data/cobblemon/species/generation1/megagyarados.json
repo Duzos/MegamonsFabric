@@ -1,19 +1,18 @@
 {
   "implemented": true,
-  "name": "megagyrados",
+  "name": "megagyarados",
   "nationalPokedexNumber": 130,
   "primaryType": "water",
-  "secondaryType": "flying",
+  "secondaryType": "dark",
   "abilities": [
-    "intimidate",
-    "h:moxie"
+    "moldbreaker"
   ],
   "baseStats": {
     "hp": 95,
-    "attack": 125,
-    "defence": 79,
-    "special_attack": 60,
-    "special_defence": 100,
+    "attack": 155,
+    "defence": 109,
+    "special_attack": 70,
+    "special_defence": 130,
     "speed": 81
   },
   "catchRate": 45,
@@ -277,7 +276,7 @@
   "preEvolution": "magikarp",
   "evolutions": [
     {
-      "id": "megagyrados_gyarados",
+      "id": "megagyarados_gyarados",
       "variant": "item_interact",
       "result": "gyarados",
       "consumeHeldItem": false,

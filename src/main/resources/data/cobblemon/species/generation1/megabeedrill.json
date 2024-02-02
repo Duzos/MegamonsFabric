@@ -5,8 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "adaptability",
-    "h:sniper"
+    "adaptability"
   ],
   "baseStats": {
     "hp": 65,

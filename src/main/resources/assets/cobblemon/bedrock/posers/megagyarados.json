@@ -9,7 +9,7 @@
         "transformTicks": 10,
         "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
         "animations": [
-          "bedrock(megagyrados, water_idle)"
+          "bedrock(megagyarados, water_idle)"
         ]
       },
       "walking": {
@@ -17,7 +17,7 @@
         "transformTicks": 10,
         "poseTypes": ["WALK"],
         "animations": [
-          "bedrock(megagyrados, water_swim)"
+          "bedrock(megagyarados, water_swim)"
         ]
       },
       "floating": {
@@ -25,7 +25,7 @@
         "transformTicks": 10,
         "poseTypes": ["FLOAT"],
         "animations": [
-          "bedrock(megagyrados, water_idle)"
+          "bedrock(megagyarados, water_idle)"
         ]
       },
       "swiming": {
@@ -33,7 +33,7 @@
         "transformTicks": 10,
         "poseTypes": ["SWIM"],
         "animations": [
-          "bedrock(megagyrados, water_swim)"
+          "bedrock(megagyarados, water_swim)"
         ]
       }
     }

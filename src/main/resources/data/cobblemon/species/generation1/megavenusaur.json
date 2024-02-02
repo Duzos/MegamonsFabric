@@ -5,15 +5,14 @@
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
-    "overgrow",
-    "h:chlorophyll"
+    "thickfat"
   ],
   "baseStats": {
     "hp": 80,
-    "attack": 82,
-    "defence": 83,
-    "special_attack": 100,
-    "special_defence": 100,
+    "attack": 100,
+    "defence": 123,
+    "special_attack": 122,
+    "special_defence": 120,
     "speed": 80
   },
   "behaviour": {

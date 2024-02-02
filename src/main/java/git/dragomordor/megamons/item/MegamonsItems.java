@@ -54,6 +54,8 @@ public class MegamonsItems {
     // Register metal Detector item
     public static final MetalDetectorItem METAL_DETECTOR = registerMetalDetectoritem("metal_detector",new MetalDetectorItem());
 
+
+
     // Helper method to register items
     // register RawMegaStoneItem
     private static RawMegaStoneItem registerRawMegaStoneItem(String name, RawMegaStoneItem rawMegaStoneItem) {
@@ -83,6 +85,9 @@ public class MegamonsItems {
     public static void registerModItems() {
         MegamonsMod.LOGGER.info("Register Mod Items for " + MegamonsMod.MODID) ;
     }
+
+
+
 
     public static ItemStack getItemStackByName(String name) {
         Identifier identifier = new Identifier(MegamonsMod.MODID, name);

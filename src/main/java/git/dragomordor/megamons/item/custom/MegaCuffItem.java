@@ -11,9 +11,9 @@ import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.cobblemon.mod.common.pokemon.Species;
 import git.dragomordor.megamons.config.ModConfig;
-import git.dragomordor.megamons.item.list.MegaPokemonList;
 import git.dragomordor.megamons.item.list.MegastoneItemList;
 import git.dragomordor.megamons.util.megaspecies.HeldMegastoneMegaSpeciesUtil;
+import git.dragomordor.megamons.util.megaspecies.MegaSpeciesUtil;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -89,7 +89,7 @@ public class MegaCuffItem extends PokemonUseItem{
                 int playerMegaCount = 0;
                 // Check if the current Mega Pokémon is in the player's Party
                 // Get list of all mega Pokémon
-                List<String> MegaPokemonToCheck = new MegaPokemonList().getMegaPokemonList();
+                List<String> MegaPokemonToCheck = MegaSpeciesUtil.getMegaSpecies();
 
                 // Get players Pokémon in party and pc
                 PlayerPartyStore pokemonInParty =  Cobblemon.INSTANCE.getStorage().getParty(player.getUuid());

@@ -5,8 +5,7 @@
     "primaryType": "fire",
     "secondaryType": "flying",
     "abilities": [
-      "drought",
-      "h:solarpower"
+      "drought"
     ],
     "baseStats": {
       "hp": 78,

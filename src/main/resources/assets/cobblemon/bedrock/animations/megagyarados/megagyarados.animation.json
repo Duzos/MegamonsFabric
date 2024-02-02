@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.megagyrados.water_idle": {
+		"animation.megagyarados.water_idle": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -58,7 +58,7 @@
 				}
 			}
 		},
-		"animation.megagyrados.water_swim": {
+		"animation.megagyarados.water_swim": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -109,7 +109,7 @@
 				}
 			}
 		},
-		"animation.megagyrados.blink": {
+		"animation.megagyarados.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_right": {
@@ -128,7 +128,7 @@
 				}
 			}
 		},
-		"animation.megagyrados.render": {
+		"animation.megagyarados.render": {
 			"loop": true,
 			"bones": {
 				"body": {

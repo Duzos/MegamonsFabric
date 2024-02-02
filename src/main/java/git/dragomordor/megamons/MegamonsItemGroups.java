@@ -124,6 +124,8 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE);
                         entries.add(MegamonsBlocks.CRYSTAL_WATER_STONE_ORE);
 
+
+
                     }).build());
 
     public static void registerItemGroups() {

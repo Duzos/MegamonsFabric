@@ -5,8 +5,7 @@
     "primaryType": "fire",
     "secondaryType": "dragon",
     "abilities": [
-      "toughclaws",
-      "h:solarpower"
+      "toughclaws"
     ],
     "baseStats": {
       "hp": 78,

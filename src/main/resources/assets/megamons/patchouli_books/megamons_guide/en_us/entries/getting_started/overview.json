@@ -1,0 +1,16 @@
+{
+  "name": "book.megamons_guide.entries.overview.name",
+  "icon": "minecraft:writable_book",
+  "category": "megamons:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.overview.text.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.overview.text.page2"
+    }
+  ]
+}

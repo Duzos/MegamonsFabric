@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "megamons:cut_aerodactylite",
+    "megamons:cut_alakazite",
+    "megamons:cut_beedrillite",
+    "megamons:cut_blastoisinite",
+    "megamons:cut_charizarditex",
+    "megamons:cut_charizarditey",
+    "megamons:cut_gengarite",
+    "megamons:cut_gyaradosite",
+    "megamons:cut_kangaskhanite",
+    "megamons:cut_mewtwonitex",
+    "megamons:cut_mewtwonitey",
+    "megamons:cut_pidgeotite",
+    "megamons:cut_pinsirite",
+    "megamons:cut_slowbronite",
+    "megamons:cut_venusaurite"
+  ]
+}

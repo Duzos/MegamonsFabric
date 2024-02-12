@@ -15,16 +15,6 @@
     "megamons:pidgeotite_crystal_ore",
     "megamons:pinsirite_crystal_ore",
     "megamons:slowbronite_crystal_ore",
-    "megamons:venusaurite_crystal_ore",
-    "megamons:crystal_dawn_stone_ore",
-    "megamons:crystal_dusk_stone_ore",
-    "megamons:crystal_fire_stone_ore",
-    "megamons:crystal_ice_stone_ore",
-    "megamons:crystal_leaf_stone_ore",
-    "megamons:crystal_moon_stone_ore",
-    "megamons:crystal_shiny_stone_ore",
-    "megamons:crystal_sun_stone_ore",
-    "megamons:crystal_thunder_stone_ore",
-    "megamons:crystal_water_stone_ore"
+    "megamons:venusaurite_crystal_ore"
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:mega_cuff"
+    },
+    "title": {
+      "translate": "advancements.megamons.mega_cuff.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.mega_cuff.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:key_stone",
+
+  "criteria": {
+    "has_mega_cuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:mega_cuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_mega_cuff"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -129,9 +129,5 @@ public class ModModelProvider extends FabricModelProvider {
         // MegaCuffItem
         itemModelGenerator.register(MegamonsItems.MEGA_CUFF, Models.GENERATED);
 
-        // metal Detector item
-        itemModelGenerator.register(MegamonsItems.METAL_DETECTOR, Models.GENERATED);
-
-
     }
 }

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_pidgeotite"
+    },
+    "title": {
+      "translate": "advancements.megamons.pidgeotite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.pidgeotite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen1_megastone",
+  "criteria": {
+    "has_cut_pidgeotite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_pidgeotite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_pidgeotite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -4,6 +4,7 @@ import git.dragomordor.megamons.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.biome.BiomeKeys;
 import net.minecraft.world.gen.GenerationStep;
 
 import java.util.ArrayList;

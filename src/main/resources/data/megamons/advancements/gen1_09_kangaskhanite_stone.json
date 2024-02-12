@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_kangaskhanite"
+    },
+    "title": {
+      "translate": "advancements.megamons.kangaskhanite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.kangaskhanite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen1_megastone",
+  "criteria": {
+    "has_cut_kangaskhanite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_kangaskhanite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_kangaskhanite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "name": "patchouli_books.megamons_guide.name",
+  "landing_text": "patchouli_books.megamons_guide.landing_text",
+  "subtitle": "patchouli_books.megamons_guide.subtitle",
+
+  "advancements_tab": "megamons",
+  "creative_tab": "megamons:megamons_itemgroup",
+
+
+  "book_texture": "megamons:textures/patchouli/book_background.png",
+  "filler_texture": "megamons:textures/patchouli/filler.png",
+  "crafting_texture": "megamons:textures/patchouli/crafting.png",
+  "model": "megamons:megamons_guide",
+
+  "open_sound": "cobblemon:pc.grab",
+  "flip_sound": "minecraft:ui.button.click",
+
+  "text_color": "FCFCFC",
+  "header_color": "FCFCFC",
+  "nameplate_color": "FCFCFC",
+  "link_color": "857EFF",
+  "link_hover_color": "9D98FF",
+  "progress_bar_color": "86F6F3",
+  "progress_bar_background": "009CAE",
+
+  "show_progress": true,
+  "text_overflow_mode": "resize",
+  "i18n": true,
+  "use_resource_pack": true,
+  "version": 0
+}

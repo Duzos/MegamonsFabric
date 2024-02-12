@@ -1,0 +1,22 @@
+{
+  "name": "book.megamons_guide.entries.mega_evolution.name",
+  "icon": "megamons:mega_cuff",
+  "category": "megamons:mega_evolution",
+  "advancement": "megamons:mega_cuff",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_evolution.text.page1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "megamons:textures/patchouli/images/mega_evolution_1.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_evolution.page2.image.title",
+      "text": "book.megamons_guide.entries.mega_evolution.page2.image.text",
+      "border": "true"
+    }
+  ]
+}

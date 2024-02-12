@@ -13,7 +13,6 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_ALAKAZITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AlakazitePreEvolution);
         }
-
         // Aerodactyl
         if (heldMegastone.equals(MegamonsItems.CUT_AERODACTYLITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.AerodactylitePreEvolution);
@@ -22,7 +21,7 @@ public class HeldMegastoneMegaSpeciesUtil {
         if (heldMegastone.equals(MegamonsItems.CUT_BEEDRILLITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BeedrillitePreEvolution);
         }
-        // Blastois
+        // Blastoise
         if (heldMegastone.equals(MegamonsItems.CUT_BLASTOISINITE)) {
             return PokemonSpecies.INSTANCE.getByName(MegaSpeciesUtil.BlastoisinitePreEvolution);
         }

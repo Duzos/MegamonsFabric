@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:raw_mewtwonitex"
+    },
+    "title": {
+      "translate": "advancements.megamons.mega_ore_or_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.mega_ore_or_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:megamons",
+
+  "criteria": {
+    "has_any_raw_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "megamons:raw_megastones"
+          }
+        ]
+      }
+    },
+    "has_any_raw_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "megamons:ore_megastones"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_any_raw_stone",
+      "has_any_raw_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

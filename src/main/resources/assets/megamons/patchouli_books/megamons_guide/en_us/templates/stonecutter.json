@@ -1,0 +1,59 @@
+{
+  "components": [
+      {
+        "type": "patchouli:header",
+        "text": "#title",
+        "x": -1,
+        "y": -1
+      },
+      {
+        "type": "patchouli:separator",
+        "x": -1,
+        "y": -1
+      },
+    {
+      "type": "patchouli:item",
+      "item": "#input1",
+      "framed": true,
+      "x": 28,
+      "y": 29
+    },
+    {
+      "type": "patchouli:image",
+      "image": "megamons:textures/patchouli/images/arrow.png",
+      "width": 16,
+      "height": 16,
+      "texture_width": 16,
+      "texture_height": 16,
+      "x": 50,
+      "y": 30,
+      "u": 0,
+      "v": 0
+    },
+    {
+      "type": "patchouli:item",
+      "item": "minecraft:stonecutter",
+      "framed": false,
+      "x": 50,
+      "y": 48
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#output1",
+      "framed": true,
+      "link_recipe": true,
+      "x": 71,
+      "y": 29
+    },
+    {
+      "type": "patchouli:separator",
+      "x": -1,
+      "y": 70
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#text",
+      "y": 76
+    }
+  ]
+}

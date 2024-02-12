@@ -2,7 +2,6 @@ package git.dragomordor.megamons.item;
 
 import git.dragomordor.megamons.MegamonsMod;
 import git.dragomordor.megamons.item.custom.*;
-import git.dragomordor.megamons.item.custom.metaldetector.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -51,9 +50,6 @@ public class MegamonsItems {
     // Register Mega Cuff Item
     public static final MegaCuffItem MEGA_CUFF = registerMegaCuffItem("mega_cuff", new MegaCuffItem());
 
-    // Register metal Detector item
-    public static final MetalDetectorItem METAL_DETECTOR = registerMetalDetectoritem("metal_detector",new MetalDetectorItem());
-
 
 
     // Helper method to register items
@@ -65,7 +61,7 @@ public class MegamonsItems {
     private static CutMegaStoneItem registerCutMegaStoneItem(String name, CutMegaStoneItem cutMegaStoneItem) {
         return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),cutMegaStoneItem);
     }
-   // register CutMegaStoneItem
+   // register KeyStoneItem
     private static KeyStoneItem registerKeyStoneItem(String name, KeyStoneItem keyStoneItem) {
         return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),keyStoneItem);
     }
@@ -75,10 +71,6 @@ public class MegamonsItems {
         return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),megaCuffItem);
     }
 
-    // register MetalDetectorItem
-    private static MetalDetectorItem registerMetalDetectoritem(String name, MetalDetectorItem metalDetectorItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),metalDetectorItem);
-    }
 
     // Other functions
     // Register all mod items

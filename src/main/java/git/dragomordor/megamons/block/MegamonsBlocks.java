@@ -155,6 +155,7 @@ public class MegamonsBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
+    // Register all blocks
     public static void registerMegastonesBlocks() {
         MegamonsMod.LOGGER.info("Registering Mod Blocks for "+ MegamonsMod.MODID);
     }

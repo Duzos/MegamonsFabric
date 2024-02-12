@@ -222,7 +222,7 @@
     "book.megamons_guide.entries.mega_pokemon_gen1.venusaurite.image.title": "Venusaur",
 
     "book.megamons_guide.categories.support.name": "Support",
-    "book.megamons_guide.categories.support.description": "Need help with the mod? Here are some ways to get support.$(br2)$(l:https://discord.gg/BDDf3dT2Mj)Discord$(/l)$(br)$(l:https://modrinth.com/mod/cobblemon-megamons)Modrinth$(/l)$(br)$(l:https://www.curseforge.com/minecraft/mc-mods/ascension-megamons)CurseForge$(/l)"
+    "book.megamons_guide.categories.support.description": "Need help with the mod? Here are some ways to get support.$(br2)$(l:https://discord.gg/BDDf3dT2Mj)Discord$(/l)$(br)$(l:https://modrinth.com/mod/ascension-megamons)Modrinth$(/l)$(br)$(l:https://www.curseforge.com/minecraft/mc-mods/ascension-megamons)CurseForge$(/l)"
 
 
 }

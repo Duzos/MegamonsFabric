@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:cut_alakazite"
+    },
+    "title": {
+      "translate": "advancements.megamons.alakazite_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.alakazite_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:gen1_megastone",
+  "criteria": {
+    "has_cut_alakazite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_alakazite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_alakazite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "book.megamons_guide.categories.support.name",
+  "description": "book.megamons_guide.categories.support.description",
+  "icon": "megamons:textures/patchouli/images/question_mark.png",
+  "sortnum": 4
+}

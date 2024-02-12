@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "megamons:key_stone"
+    },
+    "title": {
+      "translate": "advancements.megamons.key_stone.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.key_stone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "megamons:megamons",
+
+  "criteria": {
+    "has_key_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:key_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_key_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

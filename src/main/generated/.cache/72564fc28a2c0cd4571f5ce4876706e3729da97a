@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-31T20:00:02.7759641	Ascension's Megamons/Block Loot Tables
+// 1.20.1	2024-02-11T21:31:16.7845671	Ascension's Megamons/Block Loot Tables
 2204a493ae1f8efcc80496b16598c680f743e27f data\megamons\loot_tables\blocks\crystal_ice_stone_ore.json
 54571436212823ac3038c390692e4cad7f7af49d data\megamons\loot_tables\blocks\gyaradosite_crystal_ore.json
 bd3e615f3795402b07334bdc1b0e9aa4237ce1c1 data\megamons\loot_tables\blocks\mewtwonitex_crystal_ore.json
@@ -12,8 +12,8 @@ e408494ea368dc379d3f3878872a158fac833dec data\megamons\loot_tables\blocks\blasto
 6194931fc13ecc97af2a441e549f0fe4e19a83ab data\megamons\loot_tables\blocks\crystal_dusk_stone_ore.json
 5aac8e31f25200f041064c3bc25076805d8a3828 data\megamons\loot_tables\blocks\mewtwonitey_crystal_ore.json
 f61489d1708dd33e20dc5fd29fb4522d41e4ae6e data\megamons\loot_tables\blocks\anistarite_geode_block.json
-2f1bec7a960ffea53a689e8c0874739d7564add0 data\megamons\loot_tables\blocks\anistarite_rough_geode_block.json
 aae143d7e6eac760fba7d50bd258ed58015ec429 data\megamons\loot_tables\blocks\alakazite_crystal_ore.json
+2f1bec7a960ffea53a689e8c0874739d7564add0 data\megamons\loot_tables\blocks\anistarite_rough_geode_block.json
 63cbdcbf681561edfee15511a673929ac00f3847 data\megamons\loot_tables\blocks\crystal_fire_stone_ore.json
 d9e769b27f5938f150bdee03ab86f1de1ab351f8 data\megamons\loot_tables\blocks\slowbronite_crystal_ore.json
 891b7cb3ff1e2a8a351cefd92b7cf0ac975996df data\megamons\loot_tables\blocks\charizarditey_crystal_ore.json

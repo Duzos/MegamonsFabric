@@ -277,9 +277,9 @@
   "preEvolution": "magikarp",
   "evolutions": [
     {
-      "id": "gyarados_megagyrados",
+      "id": "gyarados_megagyarados",
       "variant": "item_interact",
-      "result": "megagyrados",
+      "result": "megagyarados",
       "consumeHeldItem": false,
       "requirements": [
         {

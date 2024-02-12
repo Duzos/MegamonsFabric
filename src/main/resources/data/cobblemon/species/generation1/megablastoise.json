@@ -4,8 +4,7 @@
   "nationalPokedexNumber": 9,
   "primaryType": "water",
   "abilities": [
-    "torrent",
-    "h:raindish"
+    "megalauncher"
   ],
   "baseStats": {
     "hp": 79,

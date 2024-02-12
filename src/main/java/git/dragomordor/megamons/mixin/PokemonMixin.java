@@ -1,6 +1,7 @@
 package git.dragomordor.megamons.mixin;
 
 import com.cobblemon.mod.common.pokemon.Pokemon;
+import git.dragomordor.megamons.MegamonsMod;
 import git.dragomordor.megamons.event.PokemonHeldItemChangeEvent;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -13,6 +14,7 @@ public class PokemonMixin {
 
     @Inject(method = "swapHeldItem", at = @At("RETURN"))
     private void onSwapHeldItem(ItemStack stack, boolean decrement, CallbackInfoReturnable<ItemStack> info) {
+        System.out.println("Injecting PokemonMixin for mod "+ MegamonsMod.MODID);
         PokemonHeldItemChangeEvent.INSTANCE.invoker().onPokemonHeldItemChange((Pokemon)(Object)this, info.getReturnValue(), stack);
     }
 

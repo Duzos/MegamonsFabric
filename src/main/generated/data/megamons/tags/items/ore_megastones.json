@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "megamons:aerodactylite_crystal_ore",
+    "megamons:alakazite_crystal_ore",
+    "megamons:beedrillite_crystal_ore",
+    "megamons:blastoisinite_crystal_ore",
+    "megamons:charizarditex_crystal_ore",
+    "megamons:charizarditey_crystal_ore",
+    "megamons:gengarite_crystal_ore",
+    "megamons:gyaradosite_crystal_ore",
+    "megamons:kangaskhanite_crystal_ore",
+    "megamons:mewtwonitex_crystal_ore",
+    "megamons:mewtwonitey_crystal_ore",
+    "megamons:pidgeotite_crystal_ore",
+    "megamons:pinsirite_crystal_ore",
+    "megamons:slowbronite_crystal_ore",
+    "megamons:venusaurite_crystal_ore"
+  ]
+}

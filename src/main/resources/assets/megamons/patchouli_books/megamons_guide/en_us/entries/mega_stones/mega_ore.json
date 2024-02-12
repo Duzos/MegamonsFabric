@@ -1,0 +1,22 @@
+{
+  "name": "book.megamons_guide.entries.mega_ore.name",
+  "icon": "megamons:mewtwonitex_crystal_ore",
+  "category": "megamons:mega_stones",
+  "advancement": "megamons:megamons",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_ore.text.page1"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "megamons:textures/patchouli/images/mega_ore_1.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_ore.page2.image.title",
+      "text": "book.megamons_guide.entries.mega_ore.page2.image.text",
+      "border": "true"
+    }
+  ]
+}

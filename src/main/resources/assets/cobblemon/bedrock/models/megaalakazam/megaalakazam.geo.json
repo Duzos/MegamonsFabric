@@ -6,9 +6,9 @@
 				"identifier": "geometry.alakazam_male",
 				"texture_width": 64,
 				"texture_height": 128,
-				"visible_bounds_width": 4,
-				"visible_bounds_height": 4.5,
-				"visible_bounds_offset": [0, 1.75, 0]
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
 			},
 			"bones": [
 				{
@@ -195,7 +195,7 @@
 					"pivot": [10.25, 23.5, -8.75],
 					"rotation": [0, 0, -32.5],
 					"cubes": [
-						{"origin": [10.25, 23, -9.25], "size": [5, 3, 1], "uv": [12, 110]}
+						{"origin": [10.25, 23, -9.25], "size": [5, 3, 1], "uv": [12, 110], "mirror": true}
 					]
 				},
 				{
@@ -204,7 +204,7 @@
 					"pivot": [15.25, 23, -8.75],
 					"rotation": [0, 0, -47.5],
 					"cubes": [
-						{"origin": [15.25, 23, -9.75], "size": [4, 4, 2], "uv": [12, 122]}
+						{"origin": [15.25, 23, -9.75], "size": [4, 4, 2], "uv": [12, 122], "mirror": true}
 					]
 				},
 				{

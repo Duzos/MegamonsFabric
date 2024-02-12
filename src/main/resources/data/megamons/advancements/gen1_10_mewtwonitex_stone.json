@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_cut_mewtwonitex": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_mewtwonitex"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_mewtwonitex"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

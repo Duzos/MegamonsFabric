@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "megamewtwox",
+  "name": "megamewtwoy",
   "nationalPokedexNumber": 150,
   "primaryType": "psychic",
   "abilities": [
@@ -19,11 +19,10 @@
   "shoulderMountable": false,
   "forms": [
     {
-      "name": "Mega-X",
+      "name": "Mega-Y",
       "primaryType": "psychic",
-      "secondaryType": "fighting",
       "abilities": [
-        "steadfast"
+        "insomnia"
       ],
       "baseStats": {
         "hp": 106,
@@ -56,7 +55,7 @@
         "legendary"
       ],
       "aspects": [
-        "mega-x"
+        "mega-y"
       ],
       "height": 23,
       "weight": 1270,

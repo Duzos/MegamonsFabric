@@ -1,23 +1,18 @@
 package git.dragomordor.megamons.world.gen;
 
-import com.cobblemon.mod.common.api.tags.CobblemonBiomeTags;
-import git.dragomordor.megamons.MegamonsMod;
 import git.dragomordor.megamons.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.BiomeTags;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
-import net.minecraft.world.biome.Biome;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.biome.BiomeKeys;
 import net.minecraft.world.gen.GenerationStep;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class ModGeodeGeneration {
+
+    private static final List<BlockPos> geodeLocations = new ArrayList<>();
 
     public static void generateGeodes() {
 

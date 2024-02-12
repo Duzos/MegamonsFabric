@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "cobblemon:pick_starter"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "megamons:grant_megamons_guide"
+    ]
+  }
+}

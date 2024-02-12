@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "has_cut_mewtwonitey": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "megamons:cut_mewtwonitey"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_mewtwonitey"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

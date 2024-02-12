@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 public class MegamonsItemGroups {
 
-    public static final ItemGroup TM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MegamonsMod.MODID, "key_stone"),
+    public static final ItemGroup MEGAMONS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(MegamonsMod.MODID, "megamons_itemgroup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup."+MegamonsMod.MODID))
                     .icon(() -> new ItemStack(MegamonsItems.KEY_STONE)).entries((displayContext, entries) -> {
 
@@ -123,6 +123,8 @@ public class MegamonsItemGroups {
                         entries.add(MegamonsBlocks.CRYSTAL_SUN_STONE_ORE);
                         entries.add(MegamonsBlocks.CRYSTAL_THUNDER_STONE_ORE);
                         entries.add(MegamonsBlocks.CRYSTAL_WATER_STONE_ORE);
+
+
 
                     }).build());
 

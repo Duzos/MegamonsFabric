@@ -8,6 +8,10 @@
       "model": "cobblemon:megamewtwoy.geo",
       "texture": "cobblemon:textures/pokemon/m_mewtwo/megamewtwoy.png",
       "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m_mewtwo/megamewtwoy_shiny.png"
     }
   ]
 }

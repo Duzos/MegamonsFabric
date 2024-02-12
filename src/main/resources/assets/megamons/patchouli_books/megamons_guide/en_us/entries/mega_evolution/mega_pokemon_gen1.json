@@ -1,0 +1,163 @@
+{
+  "name": "book.megamons_guide.entries.mega_pokemon_gen1.name",
+  "icon": "cobblemon:azure_ball",
+  "category": "megamons:mega_evolution",
+  "advancement": "megamons:gen1_megastone",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_pokemon_gen1.text.page1"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_aerodactylite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_aerodactyl.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.aerodactylite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen1_01_aerodactylite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_alakazite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_alakazam.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.alakazite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen1_02_alakazite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_beedrillite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_beedrill.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.beedrillite.image.title",
+      "border": "true",
+      "advancement": "megamons:gen1_03_beedrillite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_blastoisinite",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_blastoise.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.blastoisinite.image.title",
+      "border": "true",
+        "advancement": "megamons:gen1_04_blastoisinite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_charizarditex",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_charizardx.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.charizarditex.image.title",
+      "border": "true",
+        "advancement": "megamons:gen1_05_charizarditex_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_charizarditey",
+        "pokemon": [
+            "megamons:textures/patchouli/images/gen1/mega_charizardy.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen1.charizarditey.image.title",
+        "border": "true",
+        "advancement": "megamons:gen1_06_charizarditey_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+        "showcase": "megamons:cut_gengarite",
+        "pokemon": [
+            "megamons:textures/patchouli/images/gen1/mega_gengar.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen1.gengarite.image.title",
+        "border": "true",
+        "advancement": "megamons:gen1_07_gengarite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_gyaradosite",
+        "pokemon": [
+            "megamons:textures/patchouli/images/gen1/mega_gyarados.png"
+        ],
+        "title": "book.megamons_guide.entries.mega_pokemon_gen1.gyaradosite.image.title",
+        "border": "true",
+        "advancement": "megamons:gen1_08_gyaradosite_stone"
+    },
+    {
+    "type": "megamons:mega_pokemon",
+    "showcase": "megamons:cut_kangaskhanite",
+    "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_kangaskhan.png"
+    ],
+    "title": "book.megamons_guide.entries.mega_pokemon_gen1.kangaskhanite.image.title",
+    "border": "true",
+    "advancement": "megamons:gen1_09_kangaskhanite_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_mewtwonitex",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_mewtwox.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.mewtwonitex.image.title",
+      "border": "true",
+        "advancement": "megamons:gen1_10_mewtwonitex_stone"
+    },
+    {
+      "type": "megamons:mega_pokemon",
+      "showcase": "megamons:cut_mewtwonitey",
+      "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_mewtwoy.png"
+      ],
+      "title": "book.megamons_guide.entries.mega_pokemon_gen1.mewtwonitey.image.title",
+      "border": "true",
+        "advancement": "megamons:gen1_11_mewtwonitey_stone"
+    },
+    {
+    "type": "megamons:mega_pokemon",
+    "showcase": "megamons:cut_pidgeotite",
+    "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_pidgeot.png"
+    ],
+    "title": "book.megamons_guide.entries.mega_pokemon_gen1.pidgeotite.image.title",
+    "border": "true",
+    "advancement": "megamons:gen1_12_pidgeotite_stone"
+    },
+    {
+    "type": "megamons:mega_pokemon",
+    "showcase": "megamons:cut_pinsirite",
+    "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_pinsir.png"
+    ],
+    "title": "book.megamons_guide.entries.mega_pokemon_gen1.pinsirite.image.title",
+    "border": "true",
+    "advancement": "megamons:gen1_13_pinsirite_stone"
+    },
+    {
+    "type": "megamons:mega_pokemon",
+    "showcase": "megamons:cut_slowbronite",
+    "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_slowbro.png"
+    ],
+    "title": "book.megamons_guide.entries.mega_pokemon_gen1.slowbronite.image.title",
+    "border": "true",
+    "advancement": "megamons:gen1_14_slowbronite_stone"
+    },
+    {
+    "type": "megamons:mega_pokemon",
+    "showcase": "megamons:cut_venusaurite",
+    "pokemon": [
+        "megamons:textures/patchouli/images/gen1/mega_venusaur.png"
+    ],
+    "title": "book.megamons_guide.entries.mega_pokemon_gen1.venusaurite.image.title",
+    "border": "true",
+    "advancement": "megamons:gen1_15_venusaurite_stone"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "cobblemon:poke_ball"
+    },
+    "title": {
+      "translate": "advancements.megamons.all_gen1_stones.title"
+    },
+    "description": {
+      "translate": "advancements.megamons.all_gen1_stones.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "megamons:mega_cuff",
+  "criteria": {
+    "has_all_cut_megastones": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "megamons:gen1_01_aerodactylite_stone": true,
+              "megamons:gen1_02_alakazite_stone": true,
+              "megamons:gen1_03_beedrillite_stone": true,
+              "megamons:gen1_04_blastoisinite_stone": true,
+              "megamons:gen1_05_charizarditex_stone": true,
+              "megamons:gen1_06_charizarditey_stone": true,
+              "megamons:gen1_07_gengarite_stone": true,
+              "megamons:gen1_08_gyaradosite_stone": true,
+              "megamons:gen1_09_kangaskhanite_stone": true,
+              "megamons:gen1_12_pidgeotite_stone": true,
+              "megamons:gen1_13_pinsirite_stone": true,
+              "megamons:gen1_14_slowbronite_stone": true,
+              "megamons:gen1_15_venusaurite_stone": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,26 @@
+{
+  "name": "book.megamons_guide.entries.getting_started.name",
+  "icon": "megamons:anistarite_geode_block",
+  "category": "megamons:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.locate_geode.text.page1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.locate_geode.text.page2"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "megamons:textures/patchouli/images/locate_geode_1.png",
+        "megamons:textures/patchouli/images/locate_geode_2.png"
+      ],
+      "title": "book.megamons_guide.entries.locate_geode.page3.image.title",
+      "text": "book.megamons_guide.entries.locate_geode.page3.image.text",
+      "border": "true"
+    }
+  ]
+}

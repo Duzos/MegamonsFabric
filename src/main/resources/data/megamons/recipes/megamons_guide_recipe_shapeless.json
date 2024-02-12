@@ -1,0 +1,12 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "megamons:anistarite_geode_block"
+    }
+  ],
+  "book": "megamons_guide"
+}

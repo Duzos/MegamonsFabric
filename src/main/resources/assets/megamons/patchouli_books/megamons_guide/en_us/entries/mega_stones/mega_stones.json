@@ -1,0 +1,20 @@
+{
+  "name": "book.megamons_guide.entries.mega_stones.name",
+  "icon": "megamons:raw_mewtwonitex",
+  "category": "megamons:mega_stones",
+  "advancement": "megamons:mega_ore_or_stone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "book.megamons_guide.entries.mega_stones.text.page1"
+    },
+    {
+      "type": "megamons:stonecutter",
+      "title": "book.megamons_guide.entries.mega_stones.crafting.title",
+      "input1": "megamons:raw_mewtwonitex",
+      "output1": "megamons:cut_mewtwonitex",
+      "text": "book.megamons_guide.entries.mega_stones.crafting.text"
+    }
+  ]
+}

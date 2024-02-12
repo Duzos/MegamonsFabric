@@ -37,7 +37,7 @@ public class MegaSpeciesUtil {
 
     // Gyaradosite
     public static String GyaradositePreEvolution = "gyarados";
-    public static String GyaradositePostEvolution = "megagyrados";
+    public static String GyaradositePostEvolution = "megagyarados";
 
     // Kangaskhanite
     public static String KangaskhanitePreEvolution = "kangaskhan";
@@ -86,9 +86,7 @@ public class MegaSpeciesUtil {
         MEGA_SPECIES.add(SlowbronitePostEvolution);
         MEGA_SPECIES.add(VenusauritePostEvolution);
     }
-    public static void registerMegaList() {
-        MegamonsMod.LOGGER.info("Register Mega Species list for " + MegamonsMod.MODID) ;
-    }
+
     public static List<String> getMegaSpecies() {
         return MEGA_SPECIES;
     }
@@ -144,4 +142,7 @@ public class MegaSpeciesUtil {
         return pokemonPreSpecies;
     }
 
+    public static void registerMegaSpeciesUtil() {
+        MegamonsMod.LOGGER.info("Register Mega Species list for " + MegamonsMod.MODID) ;
+    }
 }

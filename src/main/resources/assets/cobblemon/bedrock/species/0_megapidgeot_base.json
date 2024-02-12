@@ -8,6 +8,10 @@
       "model": "cobblemon:megapidgeot.geo",
       "texture": "cobblemon:textures/pokemon/m6_pidgeot/megapidgeot.png",
       "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/m6_pidgeot/megapidgeot_shiny.png"
     }
   ]
 }

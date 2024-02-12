@@ -27,11 +27,15 @@ public class MegamonsMod implements ModInitializer {
         MegamonsItemGroups.registerItemGroups();
 
         // Register lists
-        MegaSpeciesUtil.registerMegaList();
+        MegaSpeciesUtil.registerMegaSpeciesUtil();
         // Register events
         ModEvents.registerEvents();
 
         // Generate World
         ModWorldGeneration.generateModWorldGen();
+
+
+
+
     }
 }

@@ -146,12 +146,12 @@ public class MegamonsBlocks {
     // registerDefault Block
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(MegamonsMod.MODID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(MegamonsMod.MODID, name), block);
     }
 
     // register Default BlockItem
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),
+        return Registry.register(Registries.ITEM, Identifier.of(MegamonsMod.MODID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 

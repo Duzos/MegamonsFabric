@@ -19,7 +19,7 @@ public class ModTags {
                 createTag("geode_walls");
 
         private static TagKey<Block> createTag(String name) {
-            return  TagKey.of(RegistryKeys.BLOCK, new Identifier(MegamonsMod.MODID, name));
+            return  TagKey.of(RegistryKeys.BLOCK, Identifier.of(MegamonsMod.MODID, name));
         }
     }
 
@@ -36,7 +36,7 @@ public class ModTags {
                 createTag("gen1_cut_megastones");
 
         private static TagKey<Item> createTag(String name) {
-            return  TagKey.of(RegistryKeys.ITEM, new Identifier(MegamonsMod.MODID, name));
+            return  TagKey.of(RegistryKeys.ITEM, Identifier.of(MegamonsMod.MODID, name));
         }
     }
 
@@ -46,7 +46,7 @@ public class ModTags {
 
 
         private static TagKey<Biome> createTag(String name) {
-            return  TagKey.of(RegistryKeys.BIOME, new Identifier(MegamonsMod.MODID, name));
+            return  TagKey.of(RegistryKeys.BIOME, Identifier.of(MegamonsMod.MODID, name));
         }
     }
 

@@ -14,7 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class ModConfig {
-    private static final Identifier CONFIG_ID = new Identifier(MegamonsMod.MODID, MegamonsMod.MODID+"_config.json");
+    private static final Identifier CONFIG_ID = Identifier.of(MegamonsMod.MODID, MegamonsMod.MODID+"_config.json");
     private static final Path CONFIG_PATH = FabricLoader.getInstance().getConfigDir().resolve(MegamonsMod.MODID).resolve(MegamonsMod.MODID+"_config.json");
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 

@@ -5,17 +5,17 @@ import com.cobblemon.mod.common.api.storage.NoPokemonStoreException;
 import com.cobblemon.mod.common.api.storage.StoreCoordinates;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Pokemon;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 
 public abstract class PokemonUseItem extends Item {
-    public PokemonUseItem(FabricItemSettings arg) {
+    public PokemonUseItem(Item.Settings arg) {
         super(arg);
     }
 
@@ -53,10 +53,10 @@ public abstract class PokemonUseItem extends Item {
         }
 
         try {
-            return processInteraction(itemStack, player, pokemonEntity, pokemon);
+            return processInteraction(itemStack, (ServerPlayerEntity) player, pokemonEntity, pokemon);
         } catch (NoPokemonStoreException e) {
             throw new RuntimeException(e);
         }
     }
-    public abstract ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) throws NoPokemonStoreException;
+    public abstract ActionResult processInteraction(ItemStack itemStack, ServerPlayerEntity player, PokemonEntity target, Pokemon pokemon) throws NoPokemonStoreException;
 }

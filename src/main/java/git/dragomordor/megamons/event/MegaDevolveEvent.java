@@ -77,7 +77,7 @@ public class MegaDevolveEvent {
             String capitalizedSpeciesName = pokemonPreSpecies.getName().substring(0, 1).toUpperCase() + pokemonPreSpecies.getName().substring(1);
             if (player!=null) {
                 player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into regular Form - Mega Stone Removed!"), true);
-                player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
+                player.getWorld().playSound(null, player.getBlockPos(), CobblemonSounds.EVOLUTION, SoundCategory.NEUTRAL, 0.1f, 1f);
             }
         }
     }

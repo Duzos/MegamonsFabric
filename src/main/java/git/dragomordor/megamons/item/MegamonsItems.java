@@ -55,20 +55,20 @@ public class MegamonsItems {
     // Helper method to register items
     // register RawMegaStoneItem
     private static RawMegaStoneItem registerRawMegaStoneItem(String name, RawMegaStoneItem rawMegaStoneItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),rawMegaStoneItem);
+        return Registry.register(Registries.ITEM, Identifier.of(MegamonsMod.MODID, name),rawMegaStoneItem);
     }
     // register CutMegaStoneItem
     private static CutMegaStoneItem registerCutMegaStoneItem(String name, CutMegaStoneItem cutMegaStoneItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),cutMegaStoneItem);
+        return Registry.register(Registries.ITEM, Identifier.of(MegamonsMod.MODID, name),cutMegaStoneItem);
     }
    // register KeyStoneItem
     private static KeyStoneItem registerKeyStoneItem(String name, KeyStoneItem keyStoneItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),keyStoneItem);
+        return Registry.register(Registries.ITEM, Identifier.of(MegamonsMod.MODID, name),keyStoneItem);
     }
 
     // Register Mega cuff
     private static MegaCuffItem registerMegaCuffItem(String name, MegaCuffItem megaCuffItem) {
-        return Registry.register(Registries.ITEM, new Identifier(MegamonsMod.MODID, name),megaCuffItem);
+        return Registry.register(Registries.ITEM, Identifier.of(MegamonsMod.MODID, name),megaCuffItem);
     }
 
 
@@ -82,18 +82,14 @@ public class MegamonsItems {
 
 
     public static ItemStack getItemStackByName(String name) {
-        Identifier identifier = new Identifier(MegamonsMod.MODID, name);
+        Identifier identifier = Identifier.of(MegamonsMod.MODID, name);
         Item item = Registries.ITEM.get(identifier);
-        if (item!=null) {
-            return new ItemStack(item);
-        } else {
-            return ItemStack.EMPTY;
-        }
+	    return new ItemStack(item);
 
     }
 
     public static Item getItemByName(String name) {
-          Identifier identifier  = new Identifier(MegamonsMod.MODID,name);
+          Identifier identifier  = Identifier.of(MegamonsMod.MODID,name);
         return Registries.ITEM.get(identifier);
     }
 

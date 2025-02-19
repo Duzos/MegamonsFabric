@@ -14,10 +14,10 @@ import git.dragomordor.megamons.config.ModConfig;
 import git.dragomordor.megamons.item.list.MegastoneItemList;
 import git.dragomordor.megamons.util.megaspecies.HeldMegastoneMegaSpeciesUtil;
 import git.dragomordor.megamons.util.megaspecies.MegaSpeciesUtil;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
@@ -26,12 +26,11 @@ import java.util.List;
 
 public class MegaCuffItem extends PokemonUseItem{
     public MegaCuffItem() {
-        super(new FabricItemSettings().maxCount(1));
+        super(new Item.Settings().maxCount(1));
     }
 
     @Override
-    public ActionResult processInteraction(ItemStack itemStack, PlayerEntity player, PokemonEntity target, Pokemon pokemon) throws NoPokemonStoreException {
-
+    public ActionResult processInteraction(ItemStack itemStack, ServerPlayerEntity player, PokemonEntity target, Pokemon pokemon) throws NoPokemonStoreException {
         // has no held item
         if (pokemon.heldItemNoCopy$common().isEmpty()) {
             player.sendMessage(Text.of("No Held Item"),true);
@@ -91,8 +90,8 @@ public class MegaCuffItem extends PokemonUseItem{
                 List<String> MegaPokemonToCheck = MegaSpeciesUtil.getMegaSpecies();
 
                 // Get players Pokémon in party and pc
-                PlayerPartyStore pokemonInParty =  Cobblemon.INSTANCE.getStorage().getParty(player.getUuid());
-                PCStore pokemonInPc = Cobblemon.INSTANCE.getStorage().getPC(player.getUuid());
+                PlayerPartyStore pokemonInParty =  Cobblemon.INSTANCE.getStorage().getParty(player);
+                PCStore pokemonInPc = Cobblemon.INSTANCE.getStorage().getPC(player);
                 for (int partySlot = 0; partySlot <= 5; partySlot++) {
                     PartyPosition partyPosition = new PartyPosition(partySlot);
                     Pokemon pokemonInSlot = pokemonInParty.get(partyPosition);
@@ -163,14 +162,14 @@ public class MegaCuffItem extends PokemonUseItem{
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
         player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into Mega Form!"), true);
         // pokemon.removeHeldItem(); // remove held item
-        player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 1F);
+        player.getWorld().playSound(null, player.getBlockPos(), CobblemonSounds.EVOLUTION, SoundCategory.NEUTRAL, 1f, 1f);
     }
 
     public static void devolveFromMega(Pokemon pokemon, Species nonMegaSpecies, Species MegaSpecies, PlayerEntity player) {
         pokemon.setSpecies(nonMegaSpecies);
         String capitalizedSpeciesName = nonMegaSpecies.getName().substring(0, 1).toUpperCase() + nonMegaSpecies.getName().substring(1);
         player.sendMessage(Text.of(capitalizedSpeciesName + " transformed into regular Form!"), true);
-        player.playSound(CobblemonSounds.EVOLVING, SoundCategory.NEUTRAL, 1F, 0.1F);
+        player.getWorld().playSound(null, player.getBlockPos(), CobblemonSounds.EVOLUTION, SoundCategory.NEUTRAL, 1f, 1f);
     }
 
 }

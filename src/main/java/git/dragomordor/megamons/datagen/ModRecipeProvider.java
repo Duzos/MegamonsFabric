@@ -6,14 +6,16 @@ import git.dragomordor.megamons.block.MegamonsBlocks;
 import git.dragomordor.megamons.item.MegamonsItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 
@@ -130,12 +132,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             MegamonsBlocks.CRYSTAL_WATER_STONE_ORE);
 
 
-    public ModRecipeProvider(FabricDataOutput output) {
-        super(output);
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
 
         // Raw Megastone to Cut Megastone via stonecutter
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, MegamonsItems.CUT_AERODACTYLITE, MegamonsItems.RAW_AERODACTYLITE, 1);
@@ -222,7 +224,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('K', MegamonsItems.KEY_STONE)
                 .criterion(hasItem(Items.IRON_INGOT),conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(MegamonsItems.KEY_STONE),conditionsFromItem(MegamonsItems.KEY_STONE))
-                .offerTo(exporter, new Identifier(MegamonsMod.MODID,getRecipeName(MegamonsItems.MEGA_CUFF)));
+                .offerTo(exporter, Identifier.of(MegamonsMod.MODID,getRecipeName(MegamonsItems.MEGA_CUFF)));
 
     //Key Stone recipe
     ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, MegamonsItems.KEY_STONE,1)
@@ -235,7 +237,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GLASS),conditionsFromItem(Items.GLASS))
                 .criterion(hasItem(Items.DIAMOND),conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(MegamonsBlocks.ANISTARITE_GEODE_BLOCK),conditionsFromItem(MegamonsBlocks.ANISTARITE_GEODE_BLOCK))
-                .offerTo(exporter, new Identifier(MegamonsMod.MODID,getRecipeName(MegamonsItems.KEY_STONE)));
+                .offerTo(exporter, Identifier.of(MegamonsMod.MODID,getRecipeName(MegamonsItems.KEY_STONE)));
     }
 
 }

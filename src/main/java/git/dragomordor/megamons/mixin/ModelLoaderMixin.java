@@ -2,6 +2,7 @@ package git.dragomordor.megamons.mixin;
 
 import git.dragomordor.megamons.MegamonsMod;
 import net.minecraft.client.color.block.BlockColors;
+import net.minecraft.client.render.model.BlockStatesLoader;
 import net.minecraft.client.render.model.ModelLoader;
 import net.minecraft.client.render.model.json.JsonUnbakedModel;
 import net.minecraft.client.util.ModelIdentifier;
@@ -19,12 +20,11 @@ import java.util.Map;
 @Mixin(ModelLoader.class)
 public abstract class ModelLoaderMixin {
     @Shadow
-    protected abstract void addModel(ModelIdentifier modelId);
+    protected abstract void loadInventoryVariantItemModel(Identifier modelId);
 
-    @Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V", ordinal = 3, shift = At.Shift.AFTER))
-    public void addMegaCuff(BlockColors blockColors, Profiler profiler, Map<Identifier, JsonUnbakedModel> jsonUnbakedModels, Map<Identifier, List<ModelLoader.SourceTrackedData>> blockStates, CallbackInfo ci) {
-        this.addModel(new ModelIdentifier(MegamonsMod.MODID, "mega_cuff_3d", "inventory"));
-        this.addModel(new ModelIdentifier(MegamonsMod.MODID, "mega_cuff", "inventory"));
-
+    @Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/model/BlockStatesLoader;getStateLookup()Lit/unimi/dsi/fastutil/objects/Object2IntMap;", shift = At.Shift.AFTER))
+    public void addMegaCuff(BlockColors blockColors, Profiler profiler, Map<Identifier, JsonUnbakedModel> map, Map<Identifier, List<BlockStatesLoader.SourceTrackedData>> map2, CallbackInfo ci) {
+        this.loadInventoryVariantItemModel(Identifier.of(MegamonsMod.MODID, "mega_cuff_3d"));
+        this.loadInventoryVariantItemModel(Identifier.of(MegamonsMod.MODID, "mega_cuff"));
     }
 }
